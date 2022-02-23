@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat-->
+        <scene sceneID="Mrg-7s-DNF">
+            <objects>
+                <navigationController id="2Gi-cA-c6e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chat" image="message" catalog="system" id="l9g-JP-7ap"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hUc-ys-Jmc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="0.74000255439999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="szY-Zj-j7E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="362" y="348"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2ZK-X1-jNI">
+            <objects>
+                <tabBarController id="dzn-i9-YJb" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="69f-sr-PQI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="0.74000255439999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kOM-7Z-8pY" kind="relationship" relationship="viewControllers" id="IBa-Zv-06w"/>
+                        <segue destination="2Gi-cA-c6e" kind="relationship" relationship="viewControllers" id="s5b-Jl-Uwp"/>
+                        <segue destination="3GS-Pw-kkX" kind="relationship" relationship="viewControllers" id="6qX-Zg-1zo"/>
+                        <segue destination="RMe-Yo-OWM" kind="relationship" relationship="viewControllers" id="XmU-e0-4qt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q4t-AE-0Ns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730" y="-344"/>
+        </scene>
+        <!--Favoritos-->
+        <scene sceneID="Se3-Wz-2pY">
+            <objects>
+                <navigationController id="3GS-Pw-kkX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favoritos" image="bolt.heart.fill" catalog="system" id="qFI-PM-9sG"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="P0u-xr-oW0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="0.74000255439999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GeB-ZM-hXD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1061" y="348"/>
+        </scene>
+        <!--Adotar-->
+        <scene sceneID="t14-Ax-q6V">
+            <objects>
+                <navigationController id="RMe-Yo-OWM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Adotar" image="network" catalog="system" id="hlM-P5-WOa"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4X9-O8-C1J">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="0.74000255439999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8T-2X-H3E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1748" y="348"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="22C-Ae-qdq">
+            <objects>
+                <navigationController id="kOM-7Z-8pY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="csL-P5-J19"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HbT-95-CNk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="0.74000255439999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQU-RC-pz7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-310" y="348"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bolt.heart.fill" catalog="system" width="128" height="109"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="network" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

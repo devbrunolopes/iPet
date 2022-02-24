@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		8810041427C45BF4002631AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810041327C45BF4002631AD /* AppDelegate.swift */; };
 		8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810041527C45BF4002631AD /* SceneDelegate.swift */; };
-		8810041827C45BF4002631AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810041727C45BF4002631AD /* ViewController.swift */; };
-		8810041B27C45BF4002631AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8810041927C45BF4002631AD /* Main.storyboard */; };
 		8810041D27C45BF5002631AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8810041C27C45BF5002631AD /* Assets.xcassets */; };
 		8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8810041E27C45BF5002631AD /* LaunchScreen.storyboard */; };
-		88F8881827C6DB360038CA2D /* CadastroVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F8881727C6DB360038CA2D /* CadastroVC.storyboard */; };
-		88F8881A27C6DB4D0038CA2D /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8881927C6DB4D0038CA2D /* CadastroVC.swift */; };
+		88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */; };
+		88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88991A3127C84AFB008A6EDD /* LoginVC.storyboard */; };
+		88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3527C84EB1008A6EDD /* CadastroVC.swift */; };
+		88991A3827C84EB1008A6EDD /* CadastroVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88991A3627C84EB1008A6EDD /* CadastroVC.storyboard */; };
+		88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8880D27C6D8C80038CA2D /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8810041027C45BF4002631AD /* iPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8810041327C45BF4002631AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8810041527C45BF4002631AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8810041727C45BF4002631AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8810041A27C45BF4002631AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8810041C27C45BF5002631AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8810041F27C45BF5002631AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8810042127C45BF5002631AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88F8881727C6DB360038CA2D /* CadastroVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CadastroVC.storyboard; sourceTree = "<group>"; };
-		88F8881927C6DB4D0038CA2D /* CadastroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
+		88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		88991A3127C84AFB008A6EDD /* LoginVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
+		88991A3527C84EB1008A6EDD /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
+		88991A3627C84EB1008A6EDD /* CadastroVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CadastroVC.storyboard; sourceTree = "<group>"; };
+		88F8880D27C6D8C80038CA2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,10 @@
 		8810041227C45BF4002631AD /* iPet */ = {
 			isa = PBXGroup;
 			children = (
-				88F8881527C6DB120038CA2D /* Features */,
+				88991A2E27C84AFB008A6EDD /* Features */,
+				88F8880C27C6D8A70038CA2D /* Base ViewController */,
 				8810041327C45BF4002631AD /* AppDelegate.swift */,
 				8810041527C45BF4002631AD /* SceneDelegate.swift */,
-				8810041727C45BF4002631AD /* ViewController.swift */,
-				8810041927C45BF4002631AD /* Main.storyboard */,
 				8810041C27C45BF5002631AD /* Assets.xcassets */,
 				8810041E27C45BF5002631AD /* LaunchScreen.storyboard */,
 				8810042127C45BF5002631AD /* Info.plist */,
@@ -72,21 +73,39 @@
 			path = iPet;
 			sourceTree = "<group>";
 		};
-		88F8881527C6DB120038CA2D /* Features */ = {
+		88991A2E27C84AFB008A6EDD /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				88F8881627C6DB190038CA2D /* Cadastro */,
+				88991A3427C84EB1008A6EDD /* Cadastro */,
+				88991A2F27C84AFB008A6EDD /* Login */,
 			);
 			path = Features;
 			sourceTree = "<group>";
 		};
-		88F8881627C6DB190038CA2D /* Cadastro */ = {
+		88991A2F27C84AFB008A6EDD /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				88F8881727C6DB360038CA2D /* CadastroVC.storyboard */,
-				88F8881927C6DB4D0038CA2D /* CadastroVC.swift */,
+				88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */,
+				88991A3127C84AFB008A6EDD /* LoginVC.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		88991A3427C84EB1008A6EDD /* Cadastro */ = {
+			isa = PBXGroup;
+			children = (
+				88991A3527C84EB1008A6EDD /* CadastroVC.swift */,
+				88991A3627C84EB1008A6EDD /* CadastroVC.storyboard */,
 			);
 			path = Cadastro;
+			sourceTree = "<group>";
+		};
+		88F8880C27C6D8A70038CA2D /* Base ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88F8880D27C6D8C80038CA2D /* BaseViewController.swift */,
+			);
+			path = "Base ViewController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +168,8 @@
 			files = (
 				8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */,
 				8810041D27C45BF5002631AD /* Assets.xcassets in Resources */,
-				88F8881827C6DB360038CA2D /* CadastroVC.storyboard in Resources */,
-				8810041B27C45BF4002631AD /* Main.storyboard in Resources */,
+				88991A3827C84EB1008A6EDD /* CadastroVC.storyboard in Resources */,
+				88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8810041827C45BF4002631AD /* ViewController.swift in Sources */,
-				88F8881A27C6DB4D0038CA2D /* CadastroVC.swift in Sources */,
+				88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */,
+				88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */,
+				88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */,
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
 			);
@@ -171,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8810041927C45BF4002631AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8810041A27C45BF4002631AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8810041E27C45BF5002631AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -317,7 +329,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -345,7 +357,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -1,19 +1,20 @@
 //
-//  ViewController.swift
+//  LoginVCViewController.swift
 //  iPet
 //
-//  Created by Bruno Lopes on 21/02/22.
+//  Created by Bruno Lopes on 23/02/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
 
 }
-

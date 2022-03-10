@@ -17,6 +17,8 @@
 		8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8826474427D9857E00A275C0 /* HomeVC.storyboard */; };
 		8894500227DA1FD500FAD8DD /* MeuPerfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */; };
 		8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */; };
+		8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */; };
+		8894500727DA264500FAD8DD /* MeuPerfilVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8894500627DA264500FAD8DD /* MeuPerfilVC.storyboard */; };
 		88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */; };
 		88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88991A3127C84AFB008A6EDD /* LoginVC.storyboard */; };
 		88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3527C84EB1008A6EDD /* CadastroVC.swift */; };
@@ -38,6 +40,8 @@
 		8826474427D9857E00A275C0 /* HomeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
 		8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilCell.swift; sourceTree = "<group>"; };
 		8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeuPerfilCell.xib; sourceTree = "<group>"; };
+		8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilVC.swift; sourceTree = "<group>"; };
+		8894500627DA264500FAD8DD /* MeuPerfilVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeuPerfilVC.storyboard; sourceTree = "<group>"; };
 		88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
 		88991A3127C84AFB008A6EDD /* LoginVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
 		88991A3527C84EB1008A6EDD /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				88944FFF27DA1FAD00FAD8DD /* Cell */,
+				8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */,
+				8894500627DA264500FAD8DD /* MeuPerfilVC.storyboard */,
 			);
 			path = "Meu Perfil";
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88991A3B27C84FD3008A6EDD /* TabBar.storyboard in Resources */,
+				8894500727DA264500FAD8DD /* MeuPerfilVC.storyboard in Resources */,
 				8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */,
 				8810041D27C45BF5002631AD /* Assets.xcassets in Resources */,
 				8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */,
@@ -249,6 +256,7 @@
 				8826474227D9856700A275C0 /* HomeVC.swift in Sources */,
 				88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */,
 				88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */,
+				8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */,
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
 				8826473F27D984B600A275C0 /* HomeCell.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,

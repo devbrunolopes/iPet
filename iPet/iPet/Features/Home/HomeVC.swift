@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class HomeVC: BaseViewController {
 
     
     @IBOutlet weak var helloLabel: UILabel!

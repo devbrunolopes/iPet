@@ -11,6 +11,10 @@
 		8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810041527C45BF4002631AD /* SceneDelegate.swift */; };
 		8810041D27C45BF5002631AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8810041C27C45BF5002631AD /* Assets.xcassets */; };
 		8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8810041E27C45BF5002631AD /* LaunchScreen.storyboard */; };
+		8826473F27D984B600A275C0 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826473D27D984B600A275C0 /* HomeCell.swift */; };
+		8826474027D984B600A275C0 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8826473E27D984B600A275C0 /* HomeCell.xib */; };
+		8826474227D9856700A275C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826474127D9856700A275C0 /* HomeVC.swift */; };
+		8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8826474427D9857E00A275C0 /* HomeVC.storyboard */; };
 		88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */; };
 		88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88991A3127C84AFB008A6EDD /* LoginVC.storyboard */; };
 		88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3527C84EB1008A6EDD /* CadastroVC.swift */; };
@@ -26,6 +30,10 @@
 		8810041C27C45BF5002631AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8810041F27C45BF5002631AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8810042127C45BF5002631AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8826473D27D984B600A275C0 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		8826473E27D984B600A275C0 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		8826474127D9856700A275C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8826474427D9857E00A275C0 /* HomeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
 		88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
 		88991A3127C84AFB008A6EDD /* LoginVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
 		88991A3527C84EB1008A6EDD /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
@@ -75,9 +83,29 @@
 			path = iPet;
 			sourceTree = "<group>";
 		};
+		8826473B27D9847500A275C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8826473C27D9848600A275C0 /* Cell */,
+				8826474127D9856700A275C0 /* HomeVC.swift */,
+				8826474427D9857E00A275C0 /* HomeVC.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8826473C27D9848600A275C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8826473D27D984B600A275C0 /* HomeCell.swift */,
+				8826473E27D984B600A275C0 /* HomeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		88991A2E27C84AFB008A6EDD /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				8826473B27D9847500A275C0 /* Home */,
 				88991A3927C84FD3008A6EDD /* TabBarController */,
 				88991A3427C84EB1008A6EDD /* Cadastro */,
 				88991A2F27C84AFB008A6EDD /* Login */,
@@ -180,7 +208,9 @@
 				88991A3B27C84FD3008A6EDD /* TabBar.storyboard in Resources */,
 				8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */,
 				8810041D27C45BF5002631AD /* Assets.xcassets in Resources */,
+				8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */,
 				88991A3827C84EB1008A6EDD /* CadastroVC.storyboard in Resources */,
+				8826474027D984B600A275C0 /* HomeCell.xib in Resources */,
 				88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,9 +223,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */,
+				8826474227D9856700A275C0 /* HomeVC.swift in Sources */,
 				88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */,
 				88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */,
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
+				8826473F27D984B600A275C0 /* HomeCell.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

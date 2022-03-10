@@ -87,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				8826473C27D9848600A275C0 /* Cell */,
-				8826474127D9856700A275C0 /* HomeVC.swift */,
 				8826474427D9857E00A275C0 /* HomeVC.storyboard */,
+				8826474127D9856700A275C0 /* HomeVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";

@@ -53,7 +53,12 @@
                 <constraint firstAttribute="trailing" secondItem="L3r-wN-sWv" secondAttribute="trailing" id="it6-1b-dLB"/>
             </constraints>
             <size key="customSize" width="145" height="122"/>
-            <point key="canvasLocation" x="93" y="120"/>
+            <connections>
+                <outlet property="featureLabel" destination="ieq-y8-hxx" id="WAI-zp-HNH"/>
+                <outlet property="iconImageView" destination="Qxe-4t-94x" id="Mn2-W5-q8e"/>
+                <outlet property="view" destination="L3r-wN-sWv" id="4Qf-l4-pIl"/>
+            </connections>
+            <point key="canvasLocation" x="-34" y="72"/>
         </collectionViewCell>
     </objects>
     <resources>

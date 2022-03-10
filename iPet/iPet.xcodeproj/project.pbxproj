@@ -15,6 +15,8 @@
 		8826474027D984B600A275C0 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8826473E27D984B600A275C0 /* HomeCell.xib */; };
 		8826474227D9856700A275C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826474127D9856700A275C0 /* HomeVC.swift */; };
 		8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8826474427D9857E00A275C0 /* HomeVC.storyboard */; };
+		8894500227DA1FD500FAD8DD /* MeuPerfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */; };
+		8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */; };
 		88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */; };
 		88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88991A3127C84AFB008A6EDD /* LoginVC.storyboard */; };
 		88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3527C84EB1008A6EDD /* CadastroVC.swift */; };
@@ -34,6 +36,8 @@
 		8826473E27D984B600A275C0 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		8826474127D9856700A275C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		8826474427D9857E00A275C0 /* HomeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
+		8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilCell.swift; sourceTree = "<group>"; };
+		8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeuPerfilCell.xib; sourceTree = "<group>"; };
 		88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
 		88991A3127C84AFB008A6EDD /* LoginVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
 		88991A3527C84EB1008A6EDD /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
@@ -102,9 +106,27 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		88944FFE27DA1FA200FAD8DD /* Meu Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				88944FFF27DA1FAD00FAD8DD /* Cell */,
+			);
+			path = "Meu Perfil";
+			sourceTree = "<group>";
+		};
+		88944FFF27DA1FAD00FAD8DD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */,
+				8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		88991A2E27C84AFB008A6EDD /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				88944FFE27DA1FA200FAD8DD /* Meu Perfil */,
 				8826473B27D9847500A275C0 /* Home */,
 				88991A3927C84FD3008A6EDD /* TabBarController */,
 				88991A3427C84EB1008A6EDD /* Cadastro */,
@@ -208,6 +230,7 @@
 				88991A3B27C84FD3008A6EDD /* TabBar.storyboard in Resources */,
 				8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */,
 				8810041D27C45BF5002631AD /* Assets.xcassets in Resources */,
+				8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */,
 				8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */,
 				88991A3827C84EB1008A6EDD /* CadastroVC.storyboard in Resources */,
 				8826474027D984B600A275C0 /* HomeCell.xib in Resources */,
@@ -229,6 +252,7 @@
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
 				8826473F27D984B600A275C0 /* HomeCell.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
+				8894500227DA1FD500FAD8DD /* MeuPerfilCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

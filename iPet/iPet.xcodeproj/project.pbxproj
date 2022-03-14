@@ -15,6 +15,8 @@
 		8826474027D984B600A275C0 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8826473E27D984B600A275C0 /* HomeCell.xib */; };
 		8826474227D9856700A275C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826474127D9856700A275C0 /* HomeVC.swift */; };
 		8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8826474427D9857E00A275C0 /* HomeVC.storyboard */; };
+		886B462727DF5A79009F572A /* CadastroDoacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886B462527DF5A79009F572A /* CadastroDoacaoTableViewCell.swift */; };
+		886B462827DF5A79009F572A /* CadastroDoacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */; };
 		8894500227DA1FD500FAD8DD /* MeuPerfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */; };
 		8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */; };
 		8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */; };
@@ -40,6 +42,8 @@
 		8826473E27D984B600A275C0 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		8826474127D9856700A275C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		8826474427D9857E00A275C0 /* HomeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
+		886B462527DF5A79009F572A /* CadastroDoacaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroDoacaoTableViewCell.swift; sourceTree = "<group>"; };
+		886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroDoacaoTableViewCell.xib; sourceTree = "<group>"; };
 		8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilCell.swift; sourceTree = "<group>"; };
 		8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeuPerfilCell.xib; sourceTree = "<group>"; };
 		8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilVC.swift; sourceTree = "<group>"; };
@@ -114,6 +118,24 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		886B462327DF5A44009F572A /* Cadastro de Doação */ = {
+			isa = PBXGroup;
+			children = (
+				886B462427DF5A60009F572A /* Cell */,
+			);
+			name = "Cadastro de Doação";
+			path = "Cadastro de Doação";
+			sourceTree = "<group>";
+		};
+		886B462427DF5A60009F572A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				886B462527DF5A79009F572A /* CadastroDoacaoTableViewCell.swift */,
+				886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		88944FFE27DA1FA200FAD8DD /* Meu Perfil */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +158,7 @@
 		88991A2E27C84AFB008A6EDD /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				886B462327DF5A44009F572A /* Cadastro de Doação */,
 				88B2861927DB997F006642F0 /* Tela de Erro */,
 				88944FFE27DA1FA200FAD8DD /* Meu Perfil */,
 				8826473B27D9847500A275C0 /* Home */,
@@ -248,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88991A3B27C84FD3008A6EDD /* TabBar.storyboard in Resources */,
+				886B462827DF5A79009F572A /* CadastroDoacaoTableViewCell.xib in Resources */,
 				88B2861B27DB99B8006642F0 /* ErroVC.storyboard in Resources */,
 				8894500727DA264500FAD8DD /* MeuPerfilVC.storyboard in Resources */,
 				8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */,
@@ -267,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886B462727DF5A79009F572A /* CadastroDoacaoTableViewCell.swift in Sources */,
 				88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */,
 				8826474227D9856700A275C0 /* HomeVC.swift in Sources */,
 				88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */,

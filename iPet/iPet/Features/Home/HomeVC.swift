@@ -8,8 +8,9 @@
 import UIKit
 
 class HomeVC: BaseViewController {
-
     
+    
+
     @IBOutlet weak var helloLabel: UILabel!
     @IBOutlet weak var userImageView: UIImageView!
     @IBOutlet weak var questionLabel: UILabel!
@@ -21,21 +22,18 @@ class HomeVC: BaseViewController {
         
         self.userImageView.layer.cornerRadius = userImageView.frame.size.height / 2
         
-        self.collectionView.register(HomeCell.nib(), forCellWithReuseIdentifier: HomeCell.identifier)
-        
+        self.collectionView.register(UINib(nibName: "HomeCell", bundle: nil), forCellWithReuseIdentifier: "HomeCell")
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         
     }
-  
+    
 }
 
 //MARK: - UICollectionViewDelegate, UICollectionViewDataSource
 
 extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    
-    
+   
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 6
     }
@@ -43,7 +41,7 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: HomeCell.identifier, for: indexPath) as? HomeCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeCell", for: indexPath) as? HomeCell
         
         return cell ?? UICollectionViewCell()
     }

@@ -17,6 +17,8 @@
 		8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8826474427D9857E00A275C0 /* HomeVC.storyboard */; };
 		886B462727DF5A79009F572A /* CadastroDoacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886B462527DF5A79009F572A /* CadastroDoacaoTableViewCell.swift */; };
 		886B462827DF5A79009F572A /* CadastroDoacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */; };
+		886B462A27DF631D009F572A /* CadastroDoacaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886B462927DF631D009F572A /* CadastroDoacaoVC.swift */; };
+		886B462C27DF6327009F572A /* CadastroDoacaoVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886B462B27DF6326009F572A /* CadastroDoacaoVC.storyboard */; };
 		8894500227DA1FD500FAD8DD /* MeuPerfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */; };
 		8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */; };
 		8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */; };
@@ -44,6 +46,8 @@
 		8826474427D9857E00A275C0 /* HomeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
 		886B462527DF5A79009F572A /* CadastroDoacaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroDoacaoTableViewCell.swift; sourceTree = "<group>"; };
 		886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroDoacaoTableViewCell.xib; sourceTree = "<group>"; };
+		886B462927DF631D009F572A /* CadastroDoacaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroDoacaoVC.swift; sourceTree = "<group>"; };
+		886B462B27DF6326009F572A /* CadastroDoacaoVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CadastroDoacaoVC.storyboard; sourceTree = "<group>"; };
 		8894500027DA1FD500FAD8DD /* MeuPerfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilCell.swift; sourceTree = "<group>"; };
 		8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeuPerfilCell.xib; sourceTree = "<group>"; };
 		8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilVC.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				886B462427DF5A60009F572A /* Cell */,
+				886B462927DF631D009F572A /* CadastroDoacaoVC.swift */,
+				886B462B27DF6326009F572A /* CadastroDoacaoVC.storyboard */,
 			);
 			name = "Cadastro de Doação";
 			path = "Cadastro de Doação";
@@ -273,6 +279,7 @@
 				88991A3B27C84FD3008A6EDD /* TabBar.storyboard in Resources */,
 				886B462827DF5A79009F572A /* CadastroDoacaoTableViewCell.xib in Resources */,
 				88B2861B27DB99B8006642F0 /* ErroVC.storyboard in Resources */,
+				886B462C27DF6327009F572A /* CadastroDoacaoVC.storyboard in Resources */,
 				8894500727DA264500FAD8DD /* MeuPerfilVC.storyboard in Resources */,
 				8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */,
 				8810041D27C45BF5002631AD /* Assets.xcassets in Resources */,
@@ -297,6 +304,7 @@
 				88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */,
 				88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */,
 				88B2861D27DB99C1006642F0 /* ErroVC.swift in Sources */,
+				886B462A27DF631D009F572A /* CadastroDoacaoVC.swift in Sources */,
 				8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */,
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
 				8826473F27D984B600A275C0 /* HomeCell.swift in Sources */,

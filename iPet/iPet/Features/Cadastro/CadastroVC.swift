@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CadastroVC: UIViewController {
+class CadastroVC: BaseViewController {
 
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var iPetLabel: UILabel!

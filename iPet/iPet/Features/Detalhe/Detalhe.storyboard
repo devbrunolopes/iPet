@@ -242,7 +242,7 @@
         <!--Filtro-->
         <scene sceneID="EiF-bK-nCV">
             <objects>
-                <viewController id="bBT-P6-SEU" sceneMemberID="viewController">
+                <viewController id="bBT-P6-SEU" customClass="FiltroViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IgA-cC-AuC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -272,6 +272,9 @@
                                                     <segment title="Cidade"/>
                                                     <segment title="Estado"/>
                                                 </segments>
+                                                <connections>
+                                                    <action selector="pressionouLocalizacao:" destination="bBT-P6-SEU" eventType="valueChanged" id="h68-4N-BZ8"/>
+                                                </connections>
                                             </segmentedControl>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WI1-hY-MhK">
                                                 <rect key="frame" x="20" y="158" width="374" height="34"/>
@@ -296,6 +299,9 @@
                                                     <segment title="Macho"/>
                                                     <segment title="Fêmea"/>
                                                 </segments>
+                                                <connections>
+                                                    <action selector="pressionouSexo:" destination="bBT-P6-SEU" eventType="valueChanged" id="XKN-5s-m7n"/>
+                                                </connections>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raça" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEh-kk-Jom">
                                                 <rect key="frame" x="20" y="338.5" width="49" height="27"/>
@@ -317,6 +323,9 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="96z-ow-aFS">
                                                 <rect key="frame" x="18" y="466.5" width="378" height="31"/>
                                                 <color key="tintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="pressionouIdade:" destination="bBT-P6-SEU" eventType="valueChanged" id="Wx9-uv-aLs"/>
+                                                </connections>
                                             </slider>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Porte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sr3-c8-LYx">
                                                 <rect key="frame" x="20" y="511.5" width="53" height="26.5"/>
@@ -333,6 +342,9 @@
                                                     <segment title="Médio"/>
                                                     <segment title="Grande"/>
                                                 </segments>
+                                                <connections>
+                                                    <action selector="pressionouPorte:" destination="bBT-P6-SEU" eventType="valueChanged" id="0WB-rj-ZRK"/>
+                                                </connections>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Castrado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rtd-3F-l36">
                                                 <rect key="frame" x="20" y="614" width="90" height="26.5"/>
@@ -343,6 +355,9 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-bx-F4n">
                                                 <rect key="frame" x="345" y="614" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="pressionouCastrado:" destination="bBT-P6-SEU" eventType="valueChanged" id="Z58-99-XdO"/>
+                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vacinado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJO-cX-Y75">
                                                 <rect key="frame" x="20" y="660.5" width="91" height="26.5"/>
@@ -353,6 +368,9 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1B-PA-2jE">
                                                 <rect key="frame" x="345" y="665" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="pressionouVacinado:" destination="bBT-P6-SEU" eventType="valueChanged" id="AFC-Kw-pzJ"/>
+                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vermifugado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDb-bz-1yL">
                                                 <rect key="frame" x="20" y="707" width="126" height="26.5"/>
@@ -363,7 +381,25 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Zt-qj-QaC">
                                                 <rect key="frame" x="345" y="716" width="51" height="31"/>
                                                 <color key="onTintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="pressionouVermifugado:" destination="bBT-P6-SEU" eventType="valueChanged" id="BRy-Nq-4Jf"/>
+                                                </connections>
                                             </switch>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUS-4R-Hbj">
+                                                <rect key="frame" x="20" y="807" width="374" height="43"/>
+                                                <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="FILTRAR" cornerStyle="small">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="filtrarButton:" destination="bBT-P6-SEU" eventType="touchUpInside" id="12q-0v-i17"/>
+                                                    <action selector="iniciarChat:" destination="lhb-nS-woz" eventType="touchUpInside" id="Z10-ee-G6o"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -385,6 +421,7 @@
                                             <constraint firstAttribute="trailing" secondItem="i7D-60-pVn" secondAttribute="trailing" constant="20" id="Hab-6y-tOC"/>
                                             <constraint firstItem="SDb-bz-1yL" firstAttribute="leading" secondItem="o8Y-pe-5s0" secondAttribute="leading" constant="20" id="Hlj-Ru-UZm"/>
                                             <constraint firstItem="tgB-oD-0t6" firstAttribute="top" secondItem="pEL-8f-YA1" secondAttribute="bottom" constant="15" id="IOM-Lb-62A"/>
+                                            <constraint firstAttribute="trailing" secondItem="uUS-4R-Hbj" secondAttribute="trailing" constant="20" id="Ix1-nN-Yc0"/>
                                             <constraint firstItem="VrS-fV-tmn" firstAttribute="leading" secondItem="o8Y-pe-5s0" secondAttribute="leading" constant="20" id="Kmb-AK-LbC"/>
                                             <constraint firstItem="pEL-8f-YA1" firstAttribute="top" secondItem="BOI-pY-8DU" secondAttribute="bottom" constant="15" id="Ktc-eK-RbJ"/>
                                             <constraint firstAttribute="trailing" secondItem="96z-ow-aFS" secondAttribute="trailing" constant="20" id="Ktw-e0-d2W"/>
@@ -410,8 +447,10 @@
                                             <constraint firstItem="yEh-kk-Jom" firstAttribute="leading" secondItem="o8Y-pe-5s0" secondAttribute="leading" constant="20" id="ecM-92-VdD"/>
                                             <constraint firstItem="E1k-on-5pU" firstAttribute="top" secondItem="VrS-fV-tmn" secondAttribute="bottom" constant="15" id="epQ-vI-yCj"/>
                                             <constraint firstItem="tpn-fh-YCR" firstAttribute="leading" secondItem="o8Y-pe-5s0" secondAttribute="leading" constant="20" id="fDU-MP-0Ux"/>
+                                            <constraint firstItem="uUS-4R-Hbj" firstAttribute="top" secondItem="2Zt-qj-QaC" secondAttribute="bottom" constant="60" id="fk5-PV-uWg"/>
                                             <constraint firstAttribute="trailing" secondItem="tpn-fh-YCR" secondAttribute="trailing" constant="20" id="gU8-2t-zGS"/>
                                             <constraint firstAttribute="trailing" secondItem="Ybo-Ol-3NF" secondAttribute="trailing" constant="20" id="giN-8n-rqK"/>
+                                            <constraint firstItem="uUS-4R-Hbj" firstAttribute="leading" secondItem="o8Y-pe-5s0" secondAttribute="leading" constant="20" id="jFy-0c-rCU"/>
                                             <constraint firstItem="Ybo-Ol-3NF" firstAttribute="leading" secondItem="o8Y-pe-5s0" secondAttribute="leading" constant="20" id="lZV-pS-PhP"/>
                                             <constraint firstItem="m1B-PA-2jE" firstAttribute="top" secondItem="i4c-bx-F4n" secondAttribute="bottom" constant="20" id="p1d-YA-GL1"/>
                                             <constraint firstItem="MJO-cX-Y75" firstAttribute="top" secondItem="Rtd-3F-l36" secondAttribute="bottom" constant="20" id="uWg-Yn-EsB"/>
@@ -440,6 +479,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Filtro" id="cbQ-bh-4fT"/>
+                    <connections>
+                        <outlet property="cidadeTextField" destination="WI1-hY-MhK" id="pLI-5u-Lpg"/>
+                        <outlet property="estadoTextField" destination="VrS-fV-tmn" id="2o4-t5-ZvG"/>
+                        <outlet property="racaTextField" destination="tpn-fh-YCR" id="k3e-2U-AVG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHM-bM-kVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

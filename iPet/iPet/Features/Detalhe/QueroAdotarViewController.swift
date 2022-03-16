@@ -7,8 +7,6 @@
 
 import UIKit
 
-// 1 - Registrar célula na collectionView
-// 2 - Fornecer a fonte de dados(DataSource)
 class QueroAdotarViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!

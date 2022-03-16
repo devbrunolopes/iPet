@@ -41,6 +41,7 @@
 		D55B9E8127E139E500D4D961 /* SemPetsFavoritosView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55B9E8027E139E500D4D961 /* SemPetsFavoritosView.xib */; };
 		D55B9ED527E2597B00D4D961 /* SemPetsCadastrados.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55B9ED427E2597B00D4D961 /* SemPetsCadastrados.xib */; };
 		D55B9ED927E25CB300D4D961 /* PetNaoEncontradoFiltro.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55B9ED827E25CB300D4D961 /* PetNaoEncontradoFiltro.xib */; };
+		D55B9EDB27E28EA600D4D961 /* FiltroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B9EDA27E28EA600D4D961 /* FiltroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		D55B9E8027E139E500D4D961 /* SemPetsFavoritosView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SemPetsFavoritosView.xib; sourceTree = "<group>"; };
 		D55B9ED427E2597B00D4D961 /* SemPetsCadastrados.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SemPetsCadastrados.xib; sourceTree = "<group>"; };
 		D55B9ED827E25CB300D4D961 /* PetNaoEncontradoFiltro.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetNaoEncontradoFiltro.xib; sourceTree = "<group>"; };
+		D55B9EDA27E28EA600D4D961 /* FiltroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,7 +233,7 @@
 			path = "Tela de Erro";
 			sourceTree = "<group>";
 		};
-		88F8880C27C6D8A70038CA2D /* Base ViewController */ = {
+		88F8880C27C6D8A70038CA2D /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
 				88F8880D27C6D8C80038CA2D /* BaseViewController.swift */,
@@ -243,15 +245,16 @@
 			isa = PBXGroup;
 			children = (
 				D52FB76C27CD1C1400EBF270 /* Detalhe.storyboard */,
-				D55B9E7327E0E5C400D4D961 /* PetCollectionViewCell.xib */,
-				D55B9ED427E2597B00D4D961 /* SemPetsCadastrados.xib */,
-				D55B9E8027E139E500D4D961 /* SemPetsFavoritosView.xib */,
-				D55B9ED827E25CB300D4D961 /* PetNaoEncontradoFiltro.xib */,
-				D55B9E7827E12B9200D4D961 /* FavoritosViewController.swift */,
-				D55B9E7A27E12BA500D4D961 /* PetsCadastradosViewController.swift */,
-				D55B9E7627E0F17000D4D961 /* QueroAdotarViewController.swift */,
-				D55B9E7227E0E5C400D4D961 /* PetCollectionViewCell.swift */,
 				D52FB76E27CD1C6B00EBF270 /* DetalheViewController.swift */,
+				D55B9E7327E0E5C400D4D961 /* PetCollectionViewCell.xib */,
+				D55B9E7227E0E5C400D4D961 /* PetCollectionViewCell.swift */,
+				D55B9ED427E2597B00D4D961 /* SemPetsCadastrados.xib */,
+				D55B9E7A27E12BA500D4D961 /* PetsCadastradosViewController.swift */,
+				D55B9E8027E139E500D4D961 /* SemPetsFavoritosView.xib */,
+				D55B9E7827E12B9200D4D961 /* FavoritosViewController.swift */,
+				D55B9ED827E25CB300D4D961 /* PetNaoEncontradoFiltro.xib */,
+				D55B9E7627E0F17000D4D961 /* QueroAdotarViewController.swift */,
+				D55B9EDA27E28EA600D4D961 /* FiltroViewController.swift */,
 			);
 			path = Detalhe;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			files = (
 				886B462727DF5A79009F572A /* CadastroDoacaoTableViewCell.swift in Sources */,
 				D55B9E7B27E12BA500D4D961 /* PetsCadastradosViewController.swift in Sources */,
+				D55B9EDB27E28EA600D4D961 /* FiltroViewController.swift in Sources */,
 				D55B9E7727E0F17000D4D961 /* QueroAdotarViewController.swift in Sources */,
 				88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */,
 				8826474227D9856700A275C0 /* HomeVC.swift in Sources */,

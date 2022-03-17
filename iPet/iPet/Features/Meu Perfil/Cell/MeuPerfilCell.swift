@@ -33,7 +33,9 @@ class MeuPerfilCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.profilePicImageView.layer.cornerRadius = profilePicImageView.frame.size.height / 2
+        
     }
     
     @IBAction func didTapPicEditButton(_ sender: UIButton) {

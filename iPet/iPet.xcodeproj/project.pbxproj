@@ -25,6 +25,7 @@
 		8894500727DA264500FAD8DD /* MeuPerfilVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8894500627DA264500FAD8DD /* MeuPerfilVC.storyboard */; };
 		889715F527E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889715F327E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift */; };
 		889715F627E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889715F427E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib */; };
+		889715F827E3D9FF00BEB9E5 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889715F727E3D9FF00BEB9E5 /* ForgotPasswordViewController.swift */; };
 		88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */; };
 		88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88991A3127C84AFB008A6EDD /* LoginVC.storyboard */; };
 		88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3527C84EB1008A6EDD /* CadastroVC.swift */; };
@@ -74,6 +75,7 @@
 		8894500627DA264500FAD8DD /* MeuPerfilVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeuPerfilVC.storyboard; sourceTree = "<group>"; };
 		889715F327E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicCadastroDoacaoTableViewCell.swift; sourceTree = "<group>"; };
 		889715F427E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PicCadastroDoacaoTableViewCell.xib; sourceTree = "<group>"; };
+		889715F727E3D9FF00BEB9E5 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
 		88991A3127C84AFB008A6EDD /* LoginVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
 		88991A3527C84EB1008A6EDD /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */,
+				889715F727E3D9FF00BEB9E5 /* ForgotPasswordViewController.swift */,
 				88991A3127C84AFB008A6EDD /* LoginVC.storyboard */,
 			);
 			path = Login;
@@ -402,6 +405,7 @@
 				D52FB76F27CD1C6B00EBF270 /* DetalheViewController.swift in Sources */,
 				88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */,
 				88B2861D27DB99C1006642F0 /* ErroVC.swift in Sources */,
+				889715F827E3D9FF00BEB9E5 /* ForgotPasswordViewController.swift in Sources */,
 				886B462A27DF631D009F572A /* CadastroDoacaoVC.swift in Sources */,
 				8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */,
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
@@ -559,7 +563,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -588,7 +592,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

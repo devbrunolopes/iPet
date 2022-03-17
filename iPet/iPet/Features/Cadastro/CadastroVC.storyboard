@@ -10,7 +10,7 @@
         <!--CadastroVC-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="CadastroVC" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CadastroVCIdentifier" id="Y6W-OH-hqX" customClass="CadastroVC" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,27 +18,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catdog" translatesAutoresizingMaskIntoConstraints="NO" id="Q5d-aw-6OR">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLI-pg-6gq">
-                                <rect key="frame" x="5" y="49" width="40" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="hZu-8w-Rmc"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system" title="">
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="didTapBackButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Um5-lC-fhe"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPet!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVa-Bc-gcj">
-                                <rect key="frame" x="15" y="95" width="384" height="72"/>
+                                <rect key="frame" x="15" y="74" width="384" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <color key="textColor" red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Um novo jeito de encontrar o seu amor." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMJ-gV-HMB">
-                                <rect key="frame" x="15" y="167" width="200" height="107.5"/>
+                                <rect key="frame" x="15" y="146" width="200" height="107.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="lQc-ka-2KX"/>
                                 </constraints>
@@ -47,22 +34,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dc4-av-VV1">
-                                <rect key="frame" x="15" y="369.5" width="384" height="34"/>
+                                <rect key="frame" x="15" y="348.5" width="384" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gnA-HM-1Sg">
-                                <rect key="frame" x="15" y="423.5" width="384" height="34"/>
+                                <rect key="frame" x="15" y="402.5" width="384" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmar Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Lr-xU-OvN">
-                                <rect key="frame" x="15" y="477.5" width="384" height="34"/>
+                                <rect key="frame" x="15" y="456.5" width="384" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hwi-Hu-e6x">
-                                <rect key="frame" x="15" y="551.5" width="384" height="44"/>
+                                <rect key="frame" x="15" y="530.5" width="384" height="44"/>
                                 <color key="backgroundColor" red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Cadastrar">
@@ -73,28 +60,6 @@
                                     <action selector="didTapSignUpButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="4LG-Dw-5Yf"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-7" translatesAutoresizingMaskIntoConstraints="NO" id="7jC-ev-qDK">
-                                <rect key="frame" x="15" y="820" width="384" height="32"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Não tem conta?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tQ-Zb-LKt">
-                                        <rect key="frame" x="0.0" y="0.0" width="195.5" height="32"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0j-Kc-5hH">
-                                        <rect key="frame" x="188.5" y="0.0" width="195.5" height="32"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Cadastre-se">
-                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="15"/>
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="didTapSignInButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="R0A-oI-pMB"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -105,36 +70,28 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6Lr-xU-OvN" secondAttribute="trailing" constant="15" id="6Ye-JD-cXE"/>
                             <constraint firstItem="eMJ-gV-HMB" firstAttribute="top" secondItem="jVa-Bc-gcj" secondAttribute="bottom" id="7Q5-Sa-WtR"/>
                             <constraint firstItem="Hwi-Hu-e6x" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="82o-Va-etS"/>
-                            <constraint firstItem="7jC-ev-qDK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="9IY-Nr-l6f"/>
                             <constraint firstItem="6Lr-xU-OvN" firstAttribute="top" secondItem="gnA-HM-1Sg" secondAttribute="bottom" constant="20" id="Bwc-ty-fZX"/>
                             <constraint firstItem="dc4-av-VV1" firstAttribute="top" secondItem="eMJ-gV-HMB" secondAttribute="bottom" constant="95" id="OfK-7U-3wI"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jVa-Bc-gcj" secondAttribute="trailing" constant="15" id="Qoh-eg-pwF"/>
                             <constraint firstItem="eMJ-gV-HMB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="RG1-vk-eif"/>
                             <constraint firstItem="dc4-av-VV1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="RiS-Ms-152"/>
                             <constraint firstItem="Q5d-aw-6OR" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="TPb-gq-qqQ"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7jC-ev-qDK" secondAttribute="trailing" constant="15" id="Tss-bp-8ZD"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="dc4-av-VV1" secondAttribute="trailing" constant="15" id="ba8-QZ-YIX"/>
-                            <constraint firstItem="jVa-Bc-gcj" firstAttribute="top" secondItem="GLI-pg-6gq" secondAttribute="bottom" constant="15" id="d8X-pZ-0nj"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="7jC-ev-qDK" secondAttribute="bottom" constant="10" id="hcF-C8-Jmq"/>
-                            <constraint firstItem="GLI-pg-6gq" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="5" id="hye-bL-iZ5"/>
+                            <constraint firstItem="jVa-Bc-gcj" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="cPc-Ib-Ic4"/>
                             <constraint firstItem="gnA-HM-1Sg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="i6e-Cv-FDb"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Hwi-Hu-e6x" secondAttribute="trailing" constant="15" id="pNf-tY-ODV"/>
                             <constraint firstItem="jVa-Bc-gcj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="qrO-ve-Gb3"/>
                             <constraint firstItem="Q5d-aw-6OR" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="sIP-6u-R9t"/>
                             <constraint firstAttribute="bottom" secondItem="Q5d-aw-6OR" secondAttribute="bottom" id="sXQ-NI-1dY"/>
-                            <constraint firstItem="GLI-pg-6gq" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="5" id="wb8-5s-7rK"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Q5d-aw-6OR" secondAttribute="trailing" id="whx-DZ-dA1"/>
                             <constraint firstItem="gnA-HM-1Sg" firstAttribute="top" secondItem="dc4-av-VV1" secondAttribute="bottom" constant="20" id="wom-PT-RzN"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backButton" destination="GLI-pg-6gq" id="phL-ay-X88"/>
                         <outlet property="checkPasswordTextField" destination="6Lr-xU-OvN" id="gSo-ZI-BEK"/>
-                        <outlet property="dontHaveAnAccountLabel" destination="8tQ-Zb-LKt" id="8KY-A2-OwC"/>
                         <outlet property="emailTextField" destination="dc4-av-VV1" id="6Ty-pL-WwD"/>
                         <outlet property="iPetLabel" destination="jVa-Bc-gcj" id="uof-L3-v96"/>
                         <outlet property="passwordTextField" destination="gnA-HM-1Sg" id="lGh-WX-rx6"/>
-                        <outlet property="signInButton" destination="I0j-Kc-5hH" id="V9x-se-sAU"/>
                         <outlet property="signUpButton" destination="Hwi-Hu-e6x" id="yiY-Ie-H4O"/>
                         <outlet property="sloganLabel" destination="eMJ-gV-HMB" id="r0I-oW-Oba"/>
                     </connections>
@@ -146,6 +103,5 @@
     </scenes>
     <resources>
         <image name="catdog" width="2099" height="1397"/>
-        <image name="chevron.backward" catalog="system" width="96" height="128"/>
     </resources>
 </document>

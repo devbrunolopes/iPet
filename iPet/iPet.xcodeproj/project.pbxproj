@@ -31,6 +31,13 @@
 		88B2861B27DB99B8006642F0 /* ErroVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B2861A27DB99B8006642F0 /* ErroVC.storyboard */; };
 		88B2861D27DB99C1006642F0 /* ErroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B2861C27DB99C1006642F0 /* ErroVC.swift */; };
 		88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8880D27C6D8C80038CA2D /* BaseViewController.swift */; };
+		B505EB6027E376CC00902EDC /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505EB5E27E376CC00902EDC /* MessageTableViewCell.swift */; };
+		B505EB6327E3774A00902EDC /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B505EB6227E3774A00902EDC /* MessageTableViewCell.xib */; };
+		B505EB6527E3786D00902EDC /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505EB6427E3786D00902EDC /* MessageVC.swift */; };
+		B505EB6727E3789B00902EDC /* MessageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B505EB6627E3789B00902EDC /* MessageVC.storyboard */; };
+		B519183127E38F22001D396F /* NotificacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B519182F27E38F22001D396F /* NotificacaoTableViewCell.xib */; };
+		B519183227E38F22001D396F /* NotificacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519183027E38F22001D396F /* NotificacaoTableViewCell.swift */; };
+		B519183427E3901A001D396F /* NotificacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519183327E3901A001D396F /* NotificacaoViewController.swift */; };
 		D52FB76D27CD1C1400EBF270 /* Detalhe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52FB76C27CD1C1400EBF270 /* Detalhe.storyboard */; };
 		D52FB76F27CD1C6B00EBF270 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FB76E27CD1C6B00EBF270 /* DetalheViewController.swift */; };
 		D55B9E7427E0E5C400D4D961 /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B9E7227E0E5C400D4D961 /* PetCollectionViewCell.swift */; };
@@ -71,6 +78,13 @@
 		88B2861A27DB99B8006642F0 /* ErroVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ErroVC.storyboard; sourceTree = "<group>"; };
 		88B2861C27DB99C1006642F0 /* ErroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErroVC.swift; sourceTree = "<group>"; };
 		88F8880D27C6D8C80038CA2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B505EB5E27E376CC00902EDC /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		B505EB6227E3774A00902EDC /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		B505EB6427E3786D00902EDC /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		B505EB6627E3789B00902EDC /* MessageVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageVC.storyboard; sourceTree = "<group>"; };
+		B519182F27E38F22001D396F /* NotificacaoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificacaoTableViewCell.xib; sourceTree = "<group>"; };
+		B519183027E38F22001D396F /* NotificacaoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificacaoTableViewCell.swift; sourceTree = "<group>"; };
+		B519183327E3901A001D396F /* NotificacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacaoViewController.swift; sourceTree = "<group>"; };
 		D52FB76C27CD1C1400EBF270 /* Detalhe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detalhe.storyboard; sourceTree = "<group>"; };
 		D52FB76E27CD1C6B00EBF270 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
 		D55B9E7227E0E5C400D4D961 /* PetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -186,6 +200,7 @@
 		88991A2E27C84AFB008A6EDD /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				B505EB5C27E3763800902EDC /* Chat */,
 				886B462327DF5A44009F572A /* Cadastro de Doação */,
 				88B2861927DB997F006642F0 /* Tela de Erro */,
 				88944FFE27DA1FA200FAD8DD /* Meu Perfil */,
@@ -239,6 +254,28 @@
 				88F8880D27C6D8C80038CA2D /* BaseViewController.swift */,
 			);
 			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		B505EB5C27E3763800902EDC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B505EB5D27E3765C00902EDC /* Cells */,
+				B505EB6427E3786D00902EDC /* MessageVC.swift */,
+				B505EB6627E3789B00902EDC /* MessageVC.storyboard */,
+				B519183327E3901A001D396F /* NotificacaoViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		B505EB5D27E3765C00902EDC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B519183027E38F22001D396F /* NotificacaoTableViewCell.swift */,
+				B519182F27E38F22001D396F /* NotificacaoTableViewCell.xib */,
+				B505EB5E27E376CC00902EDC /* MessageTableViewCell.swift */,
+				B505EB6227E3774A00902EDC /* MessageTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D52FB76B27CD1BC900EBF270 /* Detalhe */ = {
@@ -326,13 +363,16 @@
 				D55B9E8127E139E500D4D961 /* SemPetsFavoritosView.xib in Resources */,
 				8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */,
 				D55B9ED527E2597B00D4D961 /* SemPetsCadastrados.xib in Resources */,
+				B505EB6727E3789B00902EDC /* MessageVC.storyboard in Resources */,
 				8810041D27C45BF5002631AD /* Assets.xcassets in Resources */,
 				8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */,
+				B519183127E38F22001D396F /* NotificacaoTableViewCell.xib in Resources */,
 				8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */,
 				88991A3827C84EB1008A6EDD /* CadastroVC.storyboard in Resources */,
 				8826474027D984B600A275C0 /* HomeCell.xib in Resources */,
 				88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */,
 				D55B9E7527E0E5C400D4D961 /* PetCollectionViewCell.xib in Resources */,
+				B505EB6327E3774A00902EDC /* MessageTableViewCell.xib in Resources */,
 				D55B9ED927E25CB300D4D961 /* PetNaoEncontradoFiltro.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +388,7 @@
 				D55B9E7B27E12BA500D4D961 /* PetsCadastradosViewController.swift in Sources */,
 				D55B9EDB27E28EA600D4D961 /* FiltroViewController.swift in Sources */,
 				D55B9E7727E0F17000D4D961 /* QueroAdotarViewController.swift in Sources */,
+				B505EB6527E3786D00902EDC /* MessageVC.swift in Sources */,
 				88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */,
 				8826474227D9856700A275C0 /* HomeVC.swift in Sources */,
 				88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */,
@@ -357,9 +398,12 @@
 				886B462A27DF631D009F572A /* CadastroDoacaoVC.swift in Sources */,
 				8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */,
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
+				B505EB6027E376CC00902EDC /* MessageTableViewCell.swift in Sources */,
 				8826473F27D984B600A275C0 /* HomeCell.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
+				B519183427E3901A001D396F /* NotificacaoViewController.swift in Sources */,
 				8894500227DA1FD500FAD8DD /* MeuPerfilCell.swift in Sources */,
+				B519183227E38F22001D396F /* NotificacaoTableViewCell.swift in Sources */,
 				D55B9E7427E0E5C400D4D961 /* PetCollectionViewCell.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
 				D55B9E7927E12B9200D4D961 /* FavoritosViewController.swift in Sources */,
@@ -507,10 +551,11 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = HomeVC;
+				INFOPLIST_KEY_UIMainStoryboardFile = MessageVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,10 +580,11 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = HomeVC;
+				INFOPLIST_KEY_UIMainStoryboardFile = MessageVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -35,7 +35,7 @@
 		88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8880D27C6D8C80038CA2D /* BaseViewController.swift */; };
 		B505EB6027E376CC00902EDC /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505EB5E27E376CC00902EDC /* MessageTableViewCell.swift */; };
 		B505EB6327E3774A00902EDC /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B505EB6227E3774A00902EDC /* MessageTableViewCell.xib */; };
-		B505EB6527E3786D00902EDC /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505EB6427E3786D00902EDC /* MessageVC.swift */; };
+		B505EB6527E3786D00902EDC /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B505EB6427E3786D00902EDC /* MessageViewController.swift */; };
 		B505EB6727E3789B00902EDC /* MessageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B505EB6627E3789B00902EDC /* MessageVC.storyboard */; };
 		B519183127E38F22001D396F /* NotificacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B519182F27E38F22001D396F /* NotificacaoTableViewCell.xib */; };
 		B519183227E38F22001D396F /* NotificacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519183027E38F22001D396F /* NotificacaoTableViewCell.swift */; };
@@ -84,7 +84,7 @@
 		88F8880D27C6D8C80038CA2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B505EB5E27E376CC00902EDC /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 		B505EB6227E3774A00902EDC /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
-		B505EB6427E3786D00902EDC /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		B505EB6427E3786D00902EDC /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		B505EB6627E3789B00902EDC /* MessageVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageVC.storyboard; sourceTree = "<group>"; };
 		B519182F27E38F22001D396F /* NotificacaoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificacaoTableViewCell.xib; sourceTree = "<group>"; };
 		B519183027E38F22001D396F /* NotificacaoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificacaoTableViewCell.swift; sourceTree = "<group>"; };
@@ -266,7 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				B505EB5D27E3765C00902EDC /* Cells */,
-				B505EB6427E3786D00902EDC /* MessageVC.swift */,
+				B505EB6427E3786D00902EDC /* MessageViewController.swift */,
 				B505EB6627E3789B00902EDC /* MessageVC.storyboard */,
 				B519183327E3901A001D396F /* NotificacaoViewController.swift */,
 			);
@@ -395,7 +395,7 @@
 				D55B9E7B27E12BA500D4D961 /* PetsCadastradosViewController.swift in Sources */,
 				D55B9EDB27E28EA600D4D961 /* FiltroViewController.swift in Sources */,
 				D55B9E7727E0F17000D4D961 /* QueroAdotarViewController.swift in Sources */,
-				B505EB6527E3786D00902EDC /* MessageVC.swift in Sources */,
+				B505EB6527E3786D00902EDC /* MessageViewController.swift in Sources */,
 				88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */,
 				8826474227D9856700A275C0 /* HomeVC.swift in Sources */,
 				88F8880E27C6D8C80038CA2D /* BaseViewController.swift in Sources */,
@@ -559,7 +559,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = CadastroDoacaoVC;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -588,7 +588,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = CadastroDoacaoVC;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

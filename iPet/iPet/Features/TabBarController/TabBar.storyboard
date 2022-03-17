@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dzn-i9-YJb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,11 +15,22 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hUc-ys-Jmc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <color key="barTintColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
                     </navigationBar>
+                    <connections>
+                        <segue destination="wh4-q4-vii" kind="relationship" relationship="rootViewController" id="TVa-nI-XaX"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szY-Zj-j7E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="362" y="348"/>
+            <point key="canvasLocation" x="441" y="442"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="2ZK-X1-jNI">
@@ -27,14 +39,21 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="69f-sr-PQI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <tabBarAppearance key="standardAppearance"/>
+                        <tabBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </tabBarAppearance>
+                        <tabBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </tabBarAppearance>
                     </tabBar>
                     <connections>
                         <segue destination="kOM-7Z-8pY" kind="relationship" relationship="viewControllers" id="IBa-Zv-06w"/>
                         <segue destination="2Gi-cA-c6e" kind="relationship" relationship="viewControllers" id="s5b-Jl-Uwp"/>
                         <segue destination="3GS-Pw-kkX" kind="relationship" relationship="viewControllers" id="6qX-Zg-1zo"/>
-                        <segue destination="RMe-Yo-OWM" kind="relationship" relationship="viewControllers" id="XmU-e0-4qt"/>
+                        <segue destination="RMe-Yo-OWM" kind="relationship" relationship="viewControllers" id="MkC-9G-TUl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q4t-AE-0Ns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -49,11 +68,22 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="P0u-xr-oW0">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <color key="barTintColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
                     </navigationBar>
+                    <connections>
+                        <segue destination="udu-33-3PB" kind="relationship" relationship="rootViewController" id="fYg-dd-B8L"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GeB-ZM-hXD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1061" y="348"/>
+            <point key="canvasLocation" x="1226" y="442"/>
         </scene>
         <!--Adotar-->
         <scene sceneID="t14-Ax-q6V">
@@ -63,11 +93,22 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4X9-O8-C1J">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <color key="barTintColor" red="0.90196073060000004" green="0.78039217000000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" red="0.90196078431372551" green="0.7803921568627451" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.90196073060000004" green="0.78039217000000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
                     </navigationBar>
+                    <connections>
+                        <segue destination="qfZ-Vh-Jzq" kind="relationship" relationship="rootViewController" id="H2V-jN-zLM"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B8T-2X-H3E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1748" y="348"/>
+            <point key="canvasLocation" x="2090" y="442"/>
         </scene>
         <!--Home-->
         <scene sceneID="22C-Ae-qdq">
@@ -77,11 +118,62 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HbT-95-CNk">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <color key="barTintColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" red="0.90196078431372551" green="0.7803921568627451" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
                     </navigationBar>
+                    <connections>
+                        <segue destination="zmE-Ef-4Nc" kind="relationship" relationship="rootViewController" id="yua-nR-Uod"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AQU-RC-pz7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-310" y="348"/>
+            <point key="canvasLocation" x="-316" y="442"/>
+        </scene>
+        <!--HomeVCIdentifier-->
+        <scene sceneID="yog-JE-xED">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HomeVC" referencedIdentifier="HomeVCIdentifier" id="zmE-Ef-4Nc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Kt3-cc-2q4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iey-fh-Raz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-317" y="898"/>
+        </scene>
+        <!--MessageVCIdentifier-->
+        <scene sceneID="K5O-F4-Qj6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MessageVC" referencedIdentifier="MessageVCIdentifier" id="wh4-q4-vii" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DJ6-tf-fNG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ONM-tI-ChB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="441" y="898"/>
+        </scene>
+        <!--FavoritosViewControllerIdentifier-->
+        <scene sceneID="ZE7-tb-KMV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Detalhe" referencedIdentifier="FavoritosViewControllerIdentifier" id="udu-33-3PB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6gq-LC-9l4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zlk-C3-yR1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1225" y="898"/>
+        </scene>
+        <!--QueroAdotarViewControllerIdentifier-->
+        <scene sceneID="mKx-WU-n2m">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Detalhe" referencedIdentifier="QueroAdotarViewControllerIdentifier" id="qfZ-Vh-Jzq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yT1-OM-5hZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LNi-RI-Hzs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2090" y="898"/>
         </scene>
     </scenes>
     <resources>
@@ -89,5 +181,8 @@
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="message" catalog="system" width="128" height="113"/>
         <image name="network" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

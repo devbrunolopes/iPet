@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MessageVC: UIViewController {
+class MessageViewController: UIViewController {
 
     @IBOutlet weak var fotoImageView: UIImageView!
     
@@ -38,14 +38,14 @@ class MessageVC: UIViewController {
 
 }
 
-extension MessageVC:UITableViewDelegate{
+extension MessageViewController:UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(#function)
     }
         
 }
 
-extension MessageVC:UITableViewDataSource{
+extension MessageViewController:UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }

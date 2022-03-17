@@ -12,7 +12,7 @@
         <!--Detalhe do pet-->
         <scene sceneID="rgQ-5m-4Lt">
             <objects>
-                <viewController id="lhb-nS-woz" customClass="DetalheViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetalheViewcontrollerIdentifier" id="lhb-nS-woz" customClass="DetalheViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uVJ-Tk-vMg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -237,21 +237,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byC-xZ-t56" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2951" y="0.0"/>
+            <point key="canvasLocation" x="4062" y="400"/>
         </scene>
         <!--Filtro-->
         <scene sceneID="EiF-bK-nCV">
             <objects>
                 <viewController id="bBT-P6-SEU" customClass="FiltroViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IgA-cC-AuC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fa6-Xb-vsK">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8Y-pe-5s0" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filtros" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOI-pY-8DU">
                                                 <rect key="frame" x="20" y="30" width="71" height="30"/>
@@ -487,12 +487,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHM-bM-kVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3777" y="0.0"/>
+            <point key="canvasLocation" x="2500" y="-496"/>
         </scene>
         <!--Quero Adotar View Controller-->
         <scene sceneID="VJy-x1-Xkb">
             <objects>
-                <viewController id="wlx-Te-qCL" customClass="QueroAdotarViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QueroAdotarViewControllerIdentifier" id="wlx-Te-qCL" customClass="QueroAdotarViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kY4-SN-qDi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -537,6 +537,9 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="line.3.horizontal.decrease" catalog="system"/>
+                                        <connections>
+                                            <segue destination="bBT-P6-SEU" kind="show" id="ssR-jX-j4F"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.90196073060000004" green="0.78039217000000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -571,12 +574,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYC-Vt-7Vd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4661" y="-2"/>
+            <point key="canvasLocation" x="1613" y="-495"/>
         </scene>
         <!--Favoritos View Controller-->
         <scene sceneID="xiB-Hc-Lw4">
             <objects>
-                <viewController id="XGG-wv-lCK" customClass="FavoritosViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavoritosViewControllerIdentifier" id="XGG-wv-lCK" customClass="FavoritosViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5HJ-lL-hvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -617,12 +620,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KvG-zk-u2P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5488" y="-2"/>
+            <point key="canvasLocation" x="1612" y="400"/>
         </scene>
         <!--Pets Cadastrados View Controller-->
         <scene sceneID="X8M-54-f4M">
             <objects>
-                <viewController id="4P1-gn-THg" customClass="PetsCadastradosViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PetsCadastradosViewControllerIdentifier" id="4P1-gn-THg" customClass="PetsCadastradosViewController" customModule="iPet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ppy-0m-bTe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -663,7 +666,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cve-iR-LhD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6199" y="4"/>
+            <point key="canvasLocation" x="1612" y="1198"/>
         </scene>
     </scenes>
     <resources>

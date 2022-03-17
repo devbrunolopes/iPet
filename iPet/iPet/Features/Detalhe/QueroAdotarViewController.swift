@@ -29,6 +29,7 @@ class QueroAdotarViewController: UIViewController {
         let referenciaPetCollectionViewCell = UINib(nibName: "PetCollectionViewCell", bundle: nil)
         collectionView.register(referenciaPetCollectionViewCell, forCellWithReuseIdentifier: "PetCollectionViewCellidentifier")
         collectionView.dataSource = self
+        collectionView.delegate = self
        
     }
 }
@@ -46,5 +47,13 @@ extension QueroAdotarViewController: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
      
+    }
+}
+
+extension QueroAdotarViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Detalhe", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "DetalheViewcontrollerIdentifier")
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }

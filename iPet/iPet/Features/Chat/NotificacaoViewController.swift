@@ -18,7 +18,6 @@ class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableV
         super.viewDidLoad()
         self.configTableView()
         
-        // Do any additional setup after loading the view.
     }
     
     func configTableView(){
@@ -40,4 +39,9 @@ class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableV
         return cell ?? UITableViewCell()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "MessageVC", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "MessageViewControllerIdentifier")
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 }

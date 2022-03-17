@@ -29,6 +29,7 @@ class PetsCadastradosViewController: UIViewController {
         let referenciaPetCollectionViewCell = UINib(nibName: "PetCollectionViewCell", bundle: nil)
         collectionView.register(referenciaPetCollectionViewCell, forCellWithReuseIdentifier: "PetCollectionViewCellidentifier")
         collectionView.dataSource = self
+        collectionView.delegate = self
        
     }
 
@@ -47,5 +48,13 @@ extension PetsCadastradosViewController: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
      
+    }
+}
+
+extension PetsCadastradosViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Detalhe", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "DetalheViewcontrollerIdentifier")
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }

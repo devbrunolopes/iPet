@@ -23,6 +23,8 @@
 		8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */; };
 		8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */; };
 		8894500727DA264500FAD8DD /* MeuPerfilVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8894500627DA264500FAD8DD /* MeuPerfilVC.storyboard */; };
+		889715F527E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889715F327E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift */; };
+		889715F627E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889715F427E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib */; };
 		88991A3227C84AFB008A6EDD /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */; };
 		88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88991A3127C84AFB008A6EDD /* LoginVC.storyboard */; };
 		88991A3727C84EB1008A6EDD /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88991A3527C84EB1008A6EDD /* CadastroVC.swift */; };
@@ -70,6 +72,8 @@
 		8894500127DA1FD500FAD8DD /* MeuPerfilCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeuPerfilCell.xib; sourceTree = "<group>"; };
 		8894500427DA263B00FAD8DD /* MeuPerfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPerfilVC.swift; sourceTree = "<group>"; };
 		8894500627DA264500FAD8DD /* MeuPerfilVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MeuPerfilVC.storyboard; sourceTree = "<group>"; };
+		889715F327E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicCadastroDoacaoTableViewCell.swift; sourceTree = "<group>"; };
+		889715F427E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PicCadastroDoacaoTableViewCell.xib; sourceTree = "<group>"; };
 		88991A3027C84AFB008A6EDD /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
 		88991A3127C84AFB008A6EDD /* LoginVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
 		88991A3527C84EB1008A6EDD /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 			children = (
 				886B462527DF5A79009F572A /* CadastroDoacaoTableViewCell.swift */,
 				886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */,
+				889715F327E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift */,
+				889715F427E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -368,6 +374,7 @@
 				8894500327DA1FD500FAD8DD /* MeuPerfilCell.xib in Resources */,
 				B519183127E38F22001D396F /* NotificacaoTableViewCell.xib in Resources */,
 				8826474527D9857E00A275C0 /* HomeVC.storyboard in Resources */,
+				889715F627E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.xib in Resources */,
 				88991A3827C84EB1008A6EDD /* CadastroVC.storyboard in Resources */,
 				8826474027D984B600A275C0 /* HomeCell.xib in Resources */,
 				88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */,
@@ -398,6 +405,7 @@
 				886B462A27DF631D009F572A /* CadastroDoacaoVC.swift in Sources */,
 				8894500527DA263B00FAD8DD /* MeuPerfilVC.swift in Sources */,
 				8810041427C45BF4002631AD /* AppDelegate.swift in Sources */,
+				889715F527E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift in Sources */,
 				B505EB6027E376CC00902EDC /* MessageTableViewCell.swift in Sources */,
 				8826473F27D984B600A275C0 /* HomeCell.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
@@ -551,7 +559,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = MessageVC;
+				INFOPLIST_KEY_UIMainStoryboardFile = CadastroDoacaoVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -580,7 +588,7 @@
 				INFOPLIST_FILE = iPet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = MessageVC;
+				INFOPLIST_KEY_UIMainStoryboardFile = CadastroDoacaoVC;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

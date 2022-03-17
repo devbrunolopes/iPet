@@ -15,7 +15,7 @@ class CadastroDoacaoTableViewCell: UITableViewCell {
         return UINib(nibName: self.identifier, bundle: nil)
     }
     
-    @IBOutlet weak var petImageView: UIImageView!
+    
     @IBOutlet weak var petNameLabel: UILabel!
     @IBOutlet weak var petNameTextField: UITextField!
     @IBOutlet weak var locationLabel: UILabel!

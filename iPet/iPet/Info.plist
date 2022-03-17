@@ -16,7 +16,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>MessageVC</string>
+					<string>CadastroDoacaoVC</string>
 				</dict>
 			</array>
 		</dict>

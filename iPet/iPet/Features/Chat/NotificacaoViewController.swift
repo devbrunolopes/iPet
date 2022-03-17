@@ -24,7 +24,6 @@ class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableV
         self.tableView2.delegate = self
         self.tableView2.dataSource = self
         self.tableView2.register(NotificacaoTableViewCell.nib(), forCellReuseIdentifier: NotificacaoTableViewCell.identifier)
-        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1

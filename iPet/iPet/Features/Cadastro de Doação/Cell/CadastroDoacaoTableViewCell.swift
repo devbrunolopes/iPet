@@ -50,6 +50,8 @@ class CadastroDoacaoTableViewCell: UITableViewCell {
     }
     
     @IBAction func didChangePetAgeSlider(_ sender: UISlider) {
+        let age = String(format: "%.1f", sender.value)
+        self.petAgeLabel.text = "\(age) anos"
     }
     
     @IBAction func didTapPetSizeSegmentedControl(_ sender: UISegmentedControl) {

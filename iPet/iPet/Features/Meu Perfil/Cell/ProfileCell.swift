@@ -7,9 +7,9 @@
 
 import UIKit
 
-class MeuPerfilCell: UITableViewCell {
+class ProfileCell: UITableViewCell {
     
-    static let identifier: String = "MeuPerfilCell"
+    static let identifier: String = "ProfileCell"
     
     static func nib() -> UINib {
         return UINib(nibName: self.identifier, bundle: nil)

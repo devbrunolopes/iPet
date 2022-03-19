@@ -20,6 +20,10 @@ class CadastroDoacaoVC: UIViewController {
         self.tableView.delegate = self
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
   
 }
 

@@ -221,14 +221,14 @@
                     <connections>
                         <outlet property="castradaEVacinadaLabel" destination="6Im-8I-yFO" id="YgV-nc-UuP"/>
                         <outlet property="chatButton" destination="8uW-xa-FxF" id="cFA-Qn-XP2"/>
-                        <outlet property="cidadeEstadoEPaísLabel" destination="NZi-BO-v3Z" id="UZq-aM-GAU"/>
                         <outlet property="corLabel" destination="GdX-CE-t2b" id="20b-py-ioG"/>
-                        <outlet property="favoritarButton" destination="hvF-AU-pbm" id="vKD-QF-gte"/>
+                        <outlet property="favoriteButton" destination="hvF-AU-pbm" id="vKD-QF-gte"/>
                         <outlet property="filvEFelvLabel" destination="2m2-bz-D6l" id="gud-XA-zCD"/>
-                        <outlet property="nomeEIdadeLabel" destination="VKh-L6-yh3" id="dGu-Iw-b7q"/>
+                        <outlet property="imagesPageControl" destination="n4V-e8-Kou" id="lLT-Fg-yPX"/>
+                        <outlet property="locationLabel" destination="NZi-BO-v3Z" id="UZq-aM-GAU"/>
+                        <outlet property="nameAndAgeLabel" destination="VKh-L6-yh3" id="dGu-Iw-b7q"/>
                         <outlet property="petImageView" destination="bsE-gf-614" id="hxv-FF-EuZ"/>
                         <outlet property="porteLabel" destination="pf0-HT-0Pf" id="T90-BZ-NMH"/>
-                        <outlet property="quantidadeDeImagemPageControl" destination="n4V-e8-Kou" id="lLT-Fg-yPX"/>
                         <outlet property="raçaLabel" destination="762-o9-Qmz" id="s4d-Rg-Vds"/>
                         <outlet property="sexoLabel" destination="lTb-oI-4n0" id="gBb-gp-3dl"/>
                         <outlet property="temperamentoLabel" destination="FfJ-qC-P8W" id="jcE-jh-QUx"/>
@@ -237,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byC-xZ-t56" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4062" y="400"/>
+            <point key="canvasLocation" x="4107" y="431"/>
         </scene>
         <!--Filtro-->
         <scene sceneID="EiF-bK-nCV">

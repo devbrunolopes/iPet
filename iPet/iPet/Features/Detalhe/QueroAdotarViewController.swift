@@ -32,6 +32,11 @@ class QueroAdotarViewController: UIViewController {
         collectionView.delegate = self
        
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
+    
 }
 
 extension QueroAdotarViewController: UICollectionViewDataSource {

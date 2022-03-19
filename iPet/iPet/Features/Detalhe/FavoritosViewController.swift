@@ -32,6 +32,11 @@ class FavoritosViewController: UIViewController {
         collectionView.delegate = self
        
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
+    
 }
 
 extension FavoritosViewController: UICollectionViewDataSource {

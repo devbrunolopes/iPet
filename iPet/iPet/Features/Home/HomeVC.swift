@@ -31,6 +31,10 @@ class HomeVC: BaseViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
+    }
+    
 }
 
 //MARK: - UICollectionViewDelegate, UICollectionViewDataSource
@@ -52,8 +56,8 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.item == 0 {
-            let storyboard = UIStoryboard(name: "MeuPerfilVC", bundle: nil)
-            let viewController = storyboard.instantiateViewController(withIdentifier: "MeuPerfilVCIdentifier")
+            let storyboard = UIStoryboard(name: "ProfileViewController", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: "ProfileViewController")
             navigationController?.pushViewController(viewController, animated: true)
         }
         

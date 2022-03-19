@@ -10,10 +10,10 @@ import UIKit
 class DetalheViewController: UIViewController {
 
     @IBOutlet weak var petImageView: UIImageView!
-    @IBOutlet weak var quantidadeDeImagemPageControl: UIPageControl!
-    @IBOutlet weak var favoritarButton: UIButton!
-    @IBOutlet weak var nomeEIdadeLabel: UILabel!
-    @IBOutlet weak var cidadeEstadoEPaísLabel: UILabel!
+    @IBOutlet weak var imagesPageControl: UIPageControl!
+    @IBOutlet weak var favoriteButton: UIButton!
+    @IBOutlet weak var nameAndAgeLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var temperamentoLabel: UILabel!
     @IBOutlet weak var castradaEVacinadaLabel: UILabel!
     @IBOutlet weak var filvEFelvLabel: UILabel!

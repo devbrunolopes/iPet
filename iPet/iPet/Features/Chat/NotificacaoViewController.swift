@@ -11,13 +11,15 @@ class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableV
     
     
     @IBOutlet weak var tableView2: UITableView!
-    
-    
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configTableView()
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
     }
     
     func configTableView(){

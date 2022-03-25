@@ -72,7 +72,7 @@ ocorrido.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="183" y="102"/>
+            <point key="canvasLocation" x="16" y="89"/>
         </scene>
     </scenes>
     <resources>

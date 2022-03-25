@@ -25,7 +25,7 @@ class HomeVC: BaseViewController {
         
         self.userImageView.layer.cornerRadius = userImageView.frame.size.height / 2
         
-        self.collectionView.register(UINib(nibName: "HomeCell", bundle: nil), forCellWithReuseIdentifier: "HomeCell")
+        self.collectionView.register(HomeCell.nib(), forCellWithReuseIdentifier: HomeCell.identifier)
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         
@@ -48,13 +48,14 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeCell", for: indexPath) as? HomeCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: HomeCell.identifier, for: indexPath) as? HomeCell
         cell?.featureLabel.text = opcoes[indexPath.row]
         cell?.iconImageView.image = UIImage(named: icones[indexPath.row])
         return cell ?? UICollectionViewCell()
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
         if indexPath.item == 0 {
             let storyboard = UIStoryboard(name: "ProfileViewController", bundle: nil)
             let viewController = storyboard.instantiateViewController(withIdentifier: "ProfileViewController")

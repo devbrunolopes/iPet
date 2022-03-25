@@ -23,7 +23,8 @@ class LoginVC: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.signInButton.layer.cornerRadius = 7
+        
     }
     
     @IBAction func didTapForgotPasswordButton(_ sender: UIButton) {

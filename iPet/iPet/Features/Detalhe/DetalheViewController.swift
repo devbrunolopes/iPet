@@ -26,6 +26,9 @@ class DetalheViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.chatButton.layer.cornerRadius = 7
+        
     }
     
     @IBAction func favoritarOuDesfavoritar(_ sender: Any) {

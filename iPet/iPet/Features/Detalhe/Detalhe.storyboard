@@ -41,77 +41,77 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LF9-GP-NwN">
-                                                <rect key="frame" x="18" y="259" width="378" height="427"/>
+                                                <rect key="frame" x="20" y="259" width="374" height="427"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filó, 1 Ano" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKh-L6-yh3">
-                                                        <rect key="frame" x="16" y="10" width="346" height="42"/>
+                                                        <rect key="frame" x="16" y="10" width="342" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="São Paulo, SP, Brazil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZi-BO-v3Z">
-                                                        <rect key="frame" x="16" y="62" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="62" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muito dócil e carinhosa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-qC-P8W">
-                                                        <rect key="frame" x="16" y="95" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="95" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Castrada e vacinada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Im-8I-yFO">
-                                                        <rect key="frame" x="16" y="128" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="128" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIV e FELV negativo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m2-bz-D6l">
-                                                        <rect key="frame" x="16" y="161" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="161" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vermifugada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwS-xL-SVr">
-                                                        <rect key="frame" x="16" y="194" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="194" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Uh-rd-76S">
-                                                        <rect key="frame" x="65" y="242" width="248" height="1"/>
+                                                        <rect key="frame" x="65" y="242" width="244" height="1"/>
                                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="gbI-16-1qd"/>
                                                         </constraints>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informações do Pet:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yv-cg-FIU">
-                                                        <rect key="frame" x="16" y="253" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="253" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <color key="textColor" name="AppColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexo: Fêmea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-oI-4n0">
-                                                        <rect key="frame" x="16" y="288" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="288" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raça: Vira-Lata" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="762-o9-Qmz">
-                                                        <rect key="frame" x="16" y="321" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="321" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Porte: Pequeno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pf0-HT-0Pf">
-                                                        <rect key="frame" x="16" y="354" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="354" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cor: Malhada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdX-CE-t2b">
-                                                        <rect key="frame" x="16" y="387" width="346" height="30"/>
+                                                        <rect key="frame" x="16" y="387" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -159,13 +159,13 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uW-xa-FxF">
-                                                <rect key="frame" x="50" y="792" width="314" height="54"/>
+                                                <rect key="frame" x="20" y="792" width="374" height="54"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="54" id="R0L-Ol-ka2"/>
                                                 </constraints>
                                                 <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="CHAT" cornerStyle="small">
+                                                <buttonConfiguration key="configuration" style="plain" title="CHAT">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" name="AppColor"/>
                                                     </backgroundConfiguration>
@@ -185,14 +185,14 @@
                                             <constraint firstItem="hvF-AU-pbm" firstAttribute="bottom" secondItem="bsE-gf-614" secondAttribute="bottom" id="DOh-0v-tph"/>
                                             <constraint firstItem="8uW-xa-FxF" firstAttribute="top" relation="greaterThanOrEqual" secondItem="LF9-GP-NwN" secondAttribute="bottom" constant="24" id="OJF-vn-R5F"/>
                                             <constraint firstAttribute="trailing" secondItem="n4V-e8-Kou" secondAttribute="trailing" id="Obk-67-YEL"/>
-                                            <constraint firstItem="8uW-xa-FxF" firstAttribute="leading" secondItem="Xxq-Xi-xN2" secondAttribute="leading" constant="50" id="Q0o-88-r5b"/>
+                                            <constraint firstItem="8uW-xa-FxF" firstAttribute="leading" secondItem="Xxq-Xi-xN2" secondAttribute="leading" constant="20" id="Q0o-88-r5b"/>
                                             <constraint firstItem="LF9-GP-NwN" firstAttribute="top" secondItem="bsE-gf-614" secondAttribute="bottom" constant="24" id="Rab-OM-Tgo"/>
                                             <constraint firstItem="bsE-gf-614" firstAttribute="top" secondItem="Xxq-Xi-xN2" secondAttribute="top" id="hlC-ms-aAt"/>
                                             <constraint firstItem="n4V-e8-Kou" firstAttribute="bottom" secondItem="bsE-gf-614" secondAttribute="bottom" id="o2p-KL-h2r"/>
-                                            <constraint firstItem="LF9-GP-NwN" firstAttribute="leading" secondItem="Xxq-Xi-xN2" secondAttribute="leading" constant="18" id="pVY-UZ-R0A"/>
-                                            <constraint firstAttribute="trailing" secondItem="8uW-xa-FxF" secondAttribute="trailing" constant="50" id="peX-KL-mnr"/>
+                                            <constraint firstItem="LF9-GP-NwN" firstAttribute="leading" secondItem="Xxq-Xi-xN2" secondAttribute="leading" constant="20" id="pVY-UZ-R0A"/>
+                                            <constraint firstAttribute="trailing" secondItem="8uW-xa-FxF" secondAttribute="trailing" constant="20" id="peX-KL-mnr"/>
                                             <constraint firstAttribute="trailing" secondItem="hvF-AU-pbm" secondAttribute="trailing" id="qWc-Is-fQX"/>
-                                            <constraint firstAttribute="trailing" secondItem="LF9-GP-NwN" secondAttribute="trailing" constant="18" id="rjd-rf-Tfm"/>
+                                            <constraint firstAttribute="trailing" secondItem="LF9-GP-NwN" secondAttribute="trailing" constant="20" id="rjd-rf-Tfm"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -482,6 +482,7 @@
                     <connections>
                         <outlet property="cidadeTextField" destination="WI1-hY-MhK" id="pLI-5u-Lpg"/>
                         <outlet property="estadoTextField" destination="VrS-fV-tmn" id="2o4-t5-ZvG"/>
+                        <outlet property="filtrarButton" destination="uUS-4R-Hbj" id="sR5-7u-pY9"/>
                         <outlet property="racaTextField" destination="tpn-fh-YCR" id="k3e-2U-AVG"/>
                     </connections>
                 </viewController>

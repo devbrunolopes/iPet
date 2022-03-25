@@ -16,9 +16,13 @@ class FiltroViewController: UIViewController {
     
     @IBOutlet weak var racaTextField: UITextField!
     
+    @IBOutlet weak var filtrarButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.filtrarButton.layer.cornerRadius = 7
+        
     }
 
     @IBAction func pressionouLocalizacao(_ sender: Any) {

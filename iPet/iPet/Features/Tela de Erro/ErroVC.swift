@@ -16,8 +16,9 @@ class ErroVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.backButton.layer.cornerRadius = 7
+        
     }
     
     @IBAction func didTapBackButton(_ sender: UIButton) {

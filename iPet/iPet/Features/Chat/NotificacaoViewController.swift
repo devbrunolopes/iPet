@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class NotificacaoViewController: UIViewController {
     
     
     @IBOutlet weak var tableView2: UITableView!
@@ -31,6 +31,10 @@ class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableV
         title = "Chat"
         
     }
+    
+}
+    
+extension NotificacaoViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1

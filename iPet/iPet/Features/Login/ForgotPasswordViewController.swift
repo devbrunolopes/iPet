@@ -17,7 +17,8 @@ class ForgotPasswordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.changePasswordButton.layer.cornerRadius = 7
+        
     }
     
     @IBAction func didTapChangePasswordButton(_ sender: UIButton) {

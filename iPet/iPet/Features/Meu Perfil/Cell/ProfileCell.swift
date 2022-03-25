@@ -35,6 +35,7 @@ class ProfileCell: UITableViewCell {
         super.awakeFromNib()
         
         self.profilePicImageView.layer.cornerRadius = profilePicImageView.frame.size.height / 2
+        self.updateButton.layer.cornerRadius = 7
         
     }
     

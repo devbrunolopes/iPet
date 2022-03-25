@@ -36,23 +36,28 @@ class MessageViewController: UIViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.register(MessageTableViewCell.nib(), forCellReuseIdentifier: MessageTableViewCell.identifier)
+        self.messageUITextField.placeholder = "Escreva sua mensagem"
         
         title = "Conversa"
+        
         
     }
 
 }
 
 extension MessageViewController:UITableViewDelegate{
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(#function)
     }
         
 }
 
-extension MessageViewController:UITableViewDataSource{
+extension MessageViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

@@ -24,8 +24,9 @@ class MessageTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        //self.view.backgroundColor = .systemPink
+        
         self.view.layer.cornerRadius = view.frame.size.height/4
+        
     }
     
 }

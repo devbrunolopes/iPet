@@ -40,7 +40,9 @@ class CadastroDoacaoTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.signUpButton.layer.cornerRadius = 7
+        
     }
     
     @IBAction func didTapLocationSegmentedControl(_ sender: UISegmentedControl) {

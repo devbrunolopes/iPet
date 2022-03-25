@@ -22,7 +22,8 @@ class CadastroVC: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.signUpButton.layer.cornerRadius = 7
+        
     }
     
     @IBAction func didTapBackButton(_ sender: UIButton) {

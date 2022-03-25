@@ -19,6 +19,8 @@
 		886B462827DF5A79009F572A /* CadastroDoacaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */; };
 		886B462A27DF631D009F572A /* CadastroDoacaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886B462927DF631D009F572A /* CadastroDoacaoVC.swift */; };
 		886B462C27DF6327009F572A /* CadastroDoacaoVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886B462B27DF6326009F572A /* CadastroDoacaoVC.storyboard */; };
+		888AE5C527EE5FC000B32610 /* ErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AE5C327EE5FC000B32610 /* ErrorTableViewCell.swift */; };
+		888AE5C627EE5FC000B32610 /* ErrorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888AE5C427EE5FC000B32610 /* ErrorTableViewCell.xib */; };
 		8894500227DA1FD500FAD8DD /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500027DA1FD500FAD8DD /* ProfileCell.swift */; };
 		8894500327DA1FD500FAD8DD /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8894500127DA1FD500FAD8DD /* ProfileCell.xib */; };
 		8894500527DA263B00FAD8DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500427DA263B00FAD8DD /* ProfileViewController.swift */; };
@@ -69,6 +71,8 @@
 		886B462627DF5A79009F572A /* CadastroDoacaoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroDoacaoTableViewCell.xib; sourceTree = "<group>"; };
 		886B462927DF631D009F572A /* CadastroDoacaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroDoacaoVC.swift; sourceTree = "<group>"; };
 		886B462B27DF6326009F572A /* CadastroDoacaoVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CadastroDoacaoVC.storyboard; sourceTree = "<group>"; };
+		888AE5C327EE5FC000B32610 /* ErrorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTableViewCell.swift; sourceTree = "<group>"; };
+		888AE5C427EE5FC000B32610 /* ErrorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorTableViewCell.xib; sourceTree = "<group>"; };
 		8894500027DA1FD500FAD8DD /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		8894500127DA1FD500FAD8DD /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
 		8894500427DA263B00FAD8DD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +190,15 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		888AE5C227EE5FAB00B32610 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				888AE5C327EE5FC000B32610 /* ErrorTableViewCell.swift */,
+				888AE5C427EE5FC000B32610 /* ErrorTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		88944FFE27DA1FA200FAD8DD /* Meu Perfil */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +264,7 @@
 		88B2861927DB997F006642F0 /* Tela de Erro */ = {
 			isa = PBXGroup;
 			children = (
+				888AE5C227EE5FAB00B32610 /* Cell */,
 				88B2861A27DB99B8006642F0 /* ErroVC.storyboard */,
 				88B2861C27DB99C1006642F0 /* ErroVC.swift */,
 			);
@@ -383,6 +397,7 @@
 				88991A3327C84AFB008A6EDD /* LoginVC.storyboard in Resources */,
 				D55B9E7527E0E5C400D4D961 /* PetCollectionViewCell.xib in Resources */,
 				B505EB6327E3774A00902EDC /* MessageTableViewCell.xib in Resources */,
+				888AE5C627EE5FC000B32610 /* ErrorTableViewCell.xib in Resources */,
 				D55B9ED927E25CB300D4D961 /* PetNaoEncontradoFiltro.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +411,7 @@
 			files = (
 				886B462727DF5A79009F572A /* CadastroDoacaoTableViewCell.swift in Sources */,
 				D55B9E7B27E12BA500D4D961 /* PetsCadastradosViewController.swift in Sources */,
+				888AE5C527EE5FC000B32610 /* ErrorTableViewCell.swift in Sources */,
 				D55B9EDB27E28EA600D4D961 /* FiltroViewController.swift in Sources */,
 				D55B9E7727E0F17000D4D961 /* QueroAdotarViewController.swift in Sources */,
 				B505EB6527E3786D00902EDC /* MessageViewController.swift in Sources */,

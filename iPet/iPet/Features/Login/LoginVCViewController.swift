@@ -55,8 +55,8 @@ class LoginVC: BaseViewController {
     }
     
     @IBAction func didTapGoogleButton(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "TabBar", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "TabBarIdentifier")
+        let storyboard = UIStoryboard(name: "ErroVC", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "ErroVC")
 //        UIApplication.shared.keyWindow?.rootViewController = viewController
         viewController.modalPresentationStyle = .fullScreen
         self.present(viewController, animated: true, completion: nil)

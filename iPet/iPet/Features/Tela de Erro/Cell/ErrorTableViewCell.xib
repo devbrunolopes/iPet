@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ErrorTableViewCell" rowHeight="489" id="KGk-i7-Jjw" customClass="ErrorTableViewCell" customModule="iPet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="489"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="489"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hurtCarDog" translatesAutoresizingMaskIntoConstraints="NO" id="v4b-rr-Eq4">
+                        <rect key="frame" x="20" y="15" width="280" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="vN8-JO-V8a"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ops... aconteceu um erro inesperado. Sentimos muito pelo ocorrido!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxf-oA-hp5">
+                        <rect key="frame" x="36" y="235" width="248" height="179.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xig-TY-oOb">
+                        <rect key="frame" x="20" y="434.5" width="280" height="38"/>
+                        <color key="backgroundColor" name="AppColor"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Voltar">
+                            <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="didTapBackButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Du1-6y-784"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xig-TY-oOb" firstAttribute="top" secondItem="cxf-oA-hp5" secondAttribute="bottom" constant="20" id="62b-T0-E6f"/>
+                    <constraint firstItem="Xig-TY-oOb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="8Wh-8l-LhD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cxf-oA-hp5" secondAttribute="trailing" constant="20" id="AWj-my-I2Z"/>
+                    <constraint firstItem="v4b-rr-Eq4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="MXp-vU-ZXm"/>
+                    <constraint firstAttribute="trailing" secondItem="Xig-TY-oOb" secondAttribute="trailing" constant="20" id="VkP-86-Wbw"/>
+                    <constraint firstItem="v4b-rr-Eq4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Zhz-XG-cpv"/>
+                    <constraint firstAttribute="trailing" secondItem="v4b-rr-Eq4" secondAttribute="trailing" constant="20" id="u2g-ma-JJX"/>
+                    <constraint firstItem="cxf-oA-hp5" firstAttribute="top" secondItem="v4b-rr-Eq4" secondAttribute="bottom" constant="20" id="uIR-eZ-0cB"/>
+                    <constraint firstItem="cxf-oA-hp5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="zTE-M0-a0o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backButton" destination="Xig-TY-oOb" id="RR9-49-eWH"/>
+                <outlet property="errorImageView" destination="v4b-rr-Eq4" id="JwU-0Q-eot"/>
+                <outlet property="errorMessageLabel" destination="cxf-oA-hp5" id="k7X-zo-N2w"/>
+            </connections>
+            <point key="canvasLocation" x="315.94202898550725" y="141.62946428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hurtCarDog" width="483" height="500"/>
+        <namedColor name="AppColor">
+            <color red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

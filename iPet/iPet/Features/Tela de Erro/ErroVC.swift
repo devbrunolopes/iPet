@@ -9,19 +9,51 @@ import UIKit
 
 class ErroVC: UIViewController {
     
-    @IBOutlet weak var errorImageView: UIImageView!
-    @IBOutlet weak var errorMessageLabel: UILabel!
-    @IBOutlet weak var backButton: UIButton!
-    
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.backButton.layer.cornerRadius = 7
+ 
+        self.initialConfig()
         
     }
     
-    @IBAction func didTapBackButton(_ sender: UIButton) {
+    private func initialConfig() {
+        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.tableView.register(ErrorTableViewCell.nib(), forCellReuseIdentifier: ErrorTableViewCell.identifier)
+        self.tableView.isScrollEnabled = false
+        self.tableView.separatorStyle = .none
+        
+    }
+   
+}
+
+extension ErroVC: UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: ErrorTableViewCell.identifier, for: indexPath) as? ErrorTableViewCell
+        
+        return cell ?? UITableViewCell()
+    }
+    
+    
+}
+
+extension ErroVC: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(#function)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 480
     }
     
 }

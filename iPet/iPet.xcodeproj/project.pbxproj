@@ -428,11 +428,11 @@
 				889715F527E3A0EE00BEB9E5 /* PicCadastroDoacaoTableViewCell.swift in Sources */,
 				B505EB6027E376CC00902EDC /* MessageTableViewCell.swift in Sources */,
 				8826473F27D984B600A275C0 /* HomeCell.swift in Sources */,
-				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
 				B519183427E3901A001D396F /* NotificacaoViewController.swift in Sources */,
 				8894500227DA1FD500FAD8DD /* ProfileCell.swift in Sources */,
 				B519183227E38F22001D396F /* NotificacaoTableViewCell.swift in Sources */,
 				D55B9E7427E0E5C400D4D961 /* PetCollectionViewCell.swift in Sources */,
+				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
 				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
 				D55B9E7927E12B9200D4D961 /* FavoritosViewController.swift in Sources */,
 			);

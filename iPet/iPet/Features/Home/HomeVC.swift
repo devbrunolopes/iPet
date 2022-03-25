@@ -24,7 +24,6 @@ class HomeVC: BaseViewController {
         super.viewDidLoad()
         
         self.userImageView.layer.cornerRadius = userImageView.frame.size.height / 2
-        
         self.collectionView.register(HomeCell.nib(), forCellWithReuseIdentifier: HomeCell.identifier)
         self.collectionView.dataSource = self
         self.collectionView.delegate = self

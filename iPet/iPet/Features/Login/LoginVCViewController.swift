@@ -32,25 +32,33 @@ class LoginVC: BaseViewController {
     @IBAction func didTapSignInButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "TabBar", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "TabBarIdentifier")
-        UIApplication.shared.keyWindow?.rootViewController = viewController
+//        UIApplication.shared.keyWindow?.rootViewController = viewController
+        viewController.modalPresentationStyle = .fullScreen
+        self.present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapApleeButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "TabBar", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "TabBarIdentifier")
-        UIApplication.shared.keyWindow?.rootViewController = viewController
+//        UIApplication.shared.keyWindow?.rootViewController = viewController
+        viewController.modalPresentationStyle = .fullScreen
+        self.present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapFacebookButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "TabBar", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "TabBarIdentifier")
-        UIApplication.shared.keyWindow?.rootViewController = viewController
+//        UIApplication.shared.keyWindow?.rootViewController = viewController
+        viewController.modalPresentationStyle = .fullScreen
+        self.present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapGoogleButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "TabBar", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "TabBarIdentifier")
-        UIApplication.shared.keyWindow?.rootViewController = viewController
+//        UIApplication.shared.keyWindow?.rootViewController = viewController
+        viewController.modalPresentationStyle = .fullScreen
+        self.present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapSignUpButton(_ sender: UIButton) {

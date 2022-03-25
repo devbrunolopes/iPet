@@ -45,7 +45,7 @@
                 <constraint firstItem="AHg-Eg-MhC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="wTs-Zt-kgx"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="621.73913043478262" y="-250.67934782608697"/>
+            <point key="canvasLocation" x="191" y="-172"/>
         </view>
     </objects>
     <resources>

@@ -14,15 +14,23 @@ class CadastroDoacaoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.register(PicCadastroDoacaoTableViewCell.nib(), forCellReuseIdentifier: PicCadastroDoacaoTableViewCell.identifier)
-        self.tableView.register(CadastroDoacaoTableViewCell.nib(), forCellReuseIdentifier: CadastroDoacaoTableViewCell.identifier)
-        self.tableView.dataSource = self
-        self.tableView.delegate = self
+        self.initialConfig()
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
+    }
+    
+    private func initialConfig() {
+        
+        self.tableView.register(PicCadastroDoacaoTableViewCell.nib(), forCellReuseIdentifier: PicCadastroDoacaoTableViewCell.identifier)
+        self.tableView.register(CadastroDoacaoTableViewCell.nib(), forCellReuseIdentifier: CadastroDoacaoTableViewCell.identifier)
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
+        
+         title = "Cadastro de Doação"
+        
     }
   
 }

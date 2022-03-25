@@ -8,7 +8,13 @@
 import UIKit
 
 class PetCollectionViewCell: UICollectionViewCell {
-
+    
+    static let identifier: String = "PetCollectionViewCell"
+    
+    static func nib() -> UINib {
+        return UINib(nibName: self.identifier, bundle: nil)
+    }
+    
     @IBOutlet weak var filoLabel: UILabel!
     @IBOutlet weak var petImageView: UIImageView!
     @IBOutlet weak var idadeLabel: UILabel!

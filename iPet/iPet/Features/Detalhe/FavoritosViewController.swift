@@ -26,8 +26,8 @@ class FavoritosViewController: UIViewController {
         collectionViewFlowLayout.scrollDirection = .vertical
         collectionView.setCollectionViewLayout(collectionViewFlowLayout, animated: true)
         
-        let referenciaPetCollectionViewCell = UINib(nibName: "PetCollectionViewCell", bundle: nil)
-        collectionView.register(referenciaPetCollectionViewCell, forCellWithReuseIdentifier: "PetCollectionViewCellidentifier")
+        let referenciaPetCollectionViewCell = UINib(nibName: PetCollectionViewCell.identifier, bundle: nil)
+        collectionView.register(referenciaPetCollectionViewCell, forCellWithReuseIdentifier: PetCollectionViewCell.identifier)
         collectionView.dataSource = self
         collectionView.delegate = self
        
@@ -45,7 +45,7 @@ extension FavoritosViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PetCollectionViewCellidentifier", for: indexPath) as? PetCollectionViewCell{
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PetCollectionViewCell.identifier, for: indexPath) as? PetCollectionViewCell{
             
            return cell
         } else {

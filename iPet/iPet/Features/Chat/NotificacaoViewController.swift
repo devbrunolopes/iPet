@@ -14,7 +14,7 @@ class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableV
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.configTableView()
+        self.initialConfig()
         
     }
     
@@ -22,11 +22,16 @@ class NotificacaoViewController: UIViewController, UITableViewDelegate, UITableV
         self.navigationController?.isNavigationBarHidden = false
     }
     
-    func configTableView(){
+    private func initialConfig(){
+        
         self.tableView2.delegate = self
         self.tableView2.dataSource = self
         self.tableView2.register(NotificacaoTableViewCell.nib(), forCellReuseIdentifier: NotificacaoTableViewCell.identifier)
+        
+        title = "Chat"
+        
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }

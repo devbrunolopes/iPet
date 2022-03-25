@@ -37,7 +37,7 @@
                 <constraint firstItem="c3e-IY-9cu" firstAttribute="top" secondItem="b3t-ZW-j8c" secondAttribute="top" constant="70" id="LSD-si-VpI"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="621.73913043478262" y="-250.67934782608697"/>
+            <point key="canvasLocation" x="355" y="-229"/>
         </view>
     </objects>
     <resources>

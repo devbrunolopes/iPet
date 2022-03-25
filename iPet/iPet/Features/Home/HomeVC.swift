@@ -23,15 +23,21 @@ class HomeVC: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.userImageView.layer.cornerRadius = userImageView.frame.size.height / 2
-        self.collectionView.register(HomeCell.nib(), forCellWithReuseIdentifier: HomeCell.identifier)
-        self.collectionView.dataSource = self
-        self.collectionView.delegate = self
+        self.initialConfig()
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = true
+    }
+    
+    private func initialConfig() {
+        
+        self.userImageView.layer.cornerRadius = userImageView.frame.size.height / 2
+        self.collectionView.register(HomeCell.nib(), forCellWithReuseIdentifier: HomeCell.identifier)
+        self.collectionView.dataSource = self
+        self.collectionView.delegate = self
+        
     }
     
 }

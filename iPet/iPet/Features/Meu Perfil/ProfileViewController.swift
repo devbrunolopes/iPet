@@ -15,13 +15,20 @@ class ProfileViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
-        self.tableView.register(ProfileCell.nib(), forCellReuseIdentifier: ProfileCell.identifier)
+        self.initialConfig()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
+    }
+    
+    private func initialConfig() {
+        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        self.tableView.register(ProfileCell.nib(), forCellReuseIdentifier: ProfileCell.identifier)
+        
+        title = "Meu Perfil"
     }
     
 }

@@ -26,14 +26,19 @@ class MessageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.configTableView()
-        self.fotoImageView.layer.cornerRadius = fotoImageView.frame.size.width/2
+        self.initialConfig()
+        
     }
 
-    func configTableView(){
+    private func initialConfig(){
+        
+        self.fotoImageView.layer.cornerRadius = fotoImageView.frame.size.width/2
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.register(MessageTableViewCell.nib(), forCellReuseIdentifier: MessageTableViewCell.identifier)
+        
+        title = "Conversa"
+        
     }
 
 }

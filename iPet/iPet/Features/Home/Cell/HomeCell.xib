@@ -35,7 +35,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" name="AppColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="ieq-y8-hxx" secondAttribute="bottom" constant="16" id="NUx-Tu-MT2"/>
                             <constraint firstItem="ieq-y8-hxx" firstAttribute="top" secondItem="Qxe-4t-94x" secondAttribute="bottom" constant="2" id="WPd-cD-Ldr"/>
@@ -65,8 +65,8 @@
     </objects>
     <resources>
         <image name="person.fill" catalog="system" width="128" height="120"/>
-        <namedColor name="AppColor">
-            <color red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="AccentColor">
+            <color red="0.45490196078431372" green="0.31764705882352939" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

@@ -89,7 +89,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informações do Pet:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yv-cg-FIU">
                                                         <rect key="frame" x="16" y="253" width="342" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
-                                                        <color key="textColor" name="AppColor"/>
+                                                        <color key="textColor" name="AccentColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexo: Fêmea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-oI-4n0">
@@ -167,7 +167,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="CHAT">
                                                     <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" name="AppColor"/>
+                                                        <color key="backgroundColor" name="AccentColor"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 </buttonConfiguration>
@@ -267,7 +267,7 @@
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tgB-oD-0t6">
                                                 <rect key="frame" x="20" y="117" width="374" height="32"/>
-                                                <color key="backgroundColor" name="AppColor"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
                                                 <segments>
                                                     <segment title="Cidade"/>
                                                     <segment title="Estado"/>
@@ -294,7 +294,7 @@
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ybo-Ol-3NF">
                                                 <rect key="frame" x="20" y="292.5" width="374" height="32"/>
-                                                <color key="backgroundColor" name="AppColor"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
                                                 <segments>
                                                     <segment title="Macho"/>
                                                     <segment title="Fêmea"/>
@@ -322,7 +322,7 @@
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="96z-ow-aFS">
                                                 <rect key="frame" x="18" y="466.5" width="378" height="31"/>
-                                                <color key="tintColor" name="AppColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
                                                 <connections>
                                                     <action selector="pressionouIdade:" destination="bBT-P6-SEU" eventType="valueChanged" id="Wx9-uv-aLs"/>
                                                 </connections>
@@ -335,7 +335,7 @@
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="i7D-60-pVn">
                                                 <rect key="frame" x="20" y="553" width="374" height="32"/>
-                                                <color key="backgroundColor" name="AppColor"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
                                                 <segments>
                                                     <segment title="Micro"/>
                                                     <segment title="Pequeno"/>
@@ -354,7 +354,7 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-bx-F4n">
                                                 <rect key="frame" x="345" y="614" width="51" height="31"/>
-                                                <color key="onTintColor" name="AppColor"/>
+                                                <color key="onTintColor" name="AccentColor"/>
                                                 <connections>
                                                     <action selector="pressionouCastrado:" destination="bBT-P6-SEU" eventType="valueChanged" id="Z58-99-XdO"/>
                                                 </connections>
@@ -367,7 +367,7 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1B-PA-2jE">
                                                 <rect key="frame" x="345" y="665" width="51" height="31"/>
-                                                <color key="onTintColor" name="AppColor"/>
+                                                <color key="onTintColor" name="AccentColor"/>
                                                 <connections>
                                                     <action selector="pressionouVacinado:" destination="bBT-P6-SEU" eventType="valueChanged" id="AFC-Kw-pzJ"/>
                                                 </connections>
@@ -380,7 +380,7 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Zt-qj-QaC">
                                                 <rect key="frame" x="345" y="716" width="51" height="31"/>
-                                                <color key="onTintColor" name="AppColor"/>
+                                                <color key="onTintColor" name="AccentColor"/>
                                                 <connections>
                                                     <action selector="pressionouVermifugado:" destination="bBT-P6-SEU" eventType="valueChanged" id="BRy-Nq-4Jf"/>
                                                 </connections>
@@ -391,7 +391,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="FILTRAR" cornerStyle="small">
                                                     <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" name="AppColor"/>
+                                                        <color key="backgroundColor" name="AccentColor"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 </buttonConfiguration>
@@ -514,7 +514,7 @@
                                 <subviews>
                                     <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Busque pelo seu novo Pet" translatesAutoresizingMaskIntoConstraints="NO" id="n1C-hi-dOv">
                                         <rect key="frame" x="0.0" y="0.0" width="363" height="51"/>
-                                        <color key="backgroundColor" red="0.90196073060000004" green="0.78039217000000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <scopeButtonTitles>
                                             <string>Title</string>
@@ -534,7 +534,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.90196073060000004" green="0.78039217000000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstItem="n1C-hi-dOv" firstAttribute="top" secondItem="n5H-wy-UQK" secondAttribute="top" id="0uI-Af-EgR"/>
                                     <constraint firstItem="bCH-1B-2Ht" firstAttribute="leading" secondItem="n1C-hi-dOv" secondAttribute="trailing" id="23d-Vf-qEL"/>
@@ -647,8 +647,8 @@
         <image name="cat-detail" width="1795" height="2397"/>
         <image name="icn_curtir-default" width="43" height="40"/>
         <image name="line.3.horizontal.decrease" catalog="system" width="128" height="73"/>
-        <namedColor name="AppColor">
-            <color red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="AccentColor">
+            <color red="0.45490196078431372" green="0.31764705882352939" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

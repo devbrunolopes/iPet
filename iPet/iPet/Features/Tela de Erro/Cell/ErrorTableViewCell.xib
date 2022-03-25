@@ -31,7 +31,7 @@
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xig-TY-oOb">
                         <rect key="frame" x="20" y="434.5" width="280" height="38"/>
-                        <color key="backgroundColor" name="AppColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="Voltar">
                             <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
@@ -65,8 +65,8 @@
     </objects>
     <resources>
         <image name="hurtCarDog" width="483" height="500"/>
-        <namedColor name="AppColor">
-            <color red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="AccentColor">
+            <color red="0.45490196078431372" green="0.31764705882352939" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

@@ -36,7 +36,7 @@
                     </label>
                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="reF-uf-Qfr">
                         <rect key="frame" x="15" y="121" width="448" height="32"/>
-                        <color key="backgroundColor" name="AppColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <segments>
                             <segment title="Cidade"/>
                             <segment title="Estado"/>
@@ -58,7 +58,7 @@
                     </textField>
                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="X1a-hS-vD9">
                         <rect key="frame" x="15" y="242" width="448" height="32"/>
-                        <color key="backgroundColor" name="AppColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <segments>
                             <segment title="Macho"/>
                             <segment title="Fêmea"/>
@@ -95,7 +95,7 @@
                     </label>
                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="13" minValue="0.0" maxValue="26" translatesAutoresizingMaskIntoConstraints="NO" id="JaO-Pa-HB1">
                         <rect key="frame" x="13" y="399" width="452" height="34"/>
-                        <color key="tintColor" name="AppColor"/>
+                        <color key="tintColor" name="AccentColor"/>
                         <connections>
                             <action selector="didChangePetAgeSlider:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Yzg-vQ-EFP"/>
                         </connections>
@@ -108,7 +108,7 @@
                     </label>
                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="4a3-p3-Nxy">
                         <rect key="frame" x="15" y="478" width="448" height="32"/>
-                        <color key="backgroundColor" name="AppColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <segments>
                             <segment title="Micro"/>
                             <segment title="P"/>
@@ -127,7 +127,7 @@
                     </label>
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRw-Z3-1x8">
                         <rect key="frame" x="414" y="524" width="51" height="31"/>
-                        <color key="onTintColor" name="AppColor"/>
+                        <color key="onTintColor" name="AccentColor"/>
                         <connections>
                             <action selector="didTapCastratedSwitch:" destination="KGk-i7-Jjw" eventType="valueChanged" id="SFG-s7-Iau"/>
                         </connections>
@@ -140,7 +140,7 @@
                     </label>
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ise-rj-hYu">
                         <rect key="frame" x="414" y="570" width="51" height="31"/>
-                        <color key="onTintColor" name="AppColor"/>
+                        <color key="onTintColor" name="AccentColor"/>
                         <connections>
                             <action selector="didTapVaccinatedSwitch:" destination="KGk-i7-Jjw" eventType="valueChanged" id="jOw-2Q-Bob"/>
                         </connections>
@@ -153,14 +153,14 @@
                     </label>
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oYb-vi-gq8">
                         <rect key="frame" x="414" y="616" width="51" height="31"/>
-                        <color key="onTintColor" name="AppColor"/>
+                        <color key="onTintColor" name="AccentColor"/>
                         <connections>
                             <action selector="didTapWormedSwitch:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Pdu-5t-xgo"/>
                         </connections>
                     </switch>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV1-O8-UtC">
                         <rect key="frame" x="15" y="677" width="448" height="41.5"/>
-                        <color key="backgroundColor" name="AppColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="Cadastrar">
@@ -263,8 +263,8 @@
         </tableViewCell>
     </objects>
     <resources>
-        <namedColor name="AppColor">
-            <color red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="AccentColor">
+            <color red="0.45490196078431372" green="0.31764705882352939" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

@@ -17,12 +17,12 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" systemColor="labelColor"/>
-                        <color key="barTintColor" name="AppColor"/>
+                        <color key="barTintColor" name="AccentColor"/>
                         <navigationBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                     </navigationBar>
                     <connections>
@@ -40,14 +40,14 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="69f-sr-PQI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" name="AppColor"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <color key="tintColor" systemColor="labelColor"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <tabBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </tabBarAppearance>
                         <tabBarAppearance key="scrollEdgeAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </tabBarAppearance>
                     </tabBar>
                     <connections>
@@ -70,12 +70,12 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" systemColor="labelColor"/>
-                        <color key="barTintColor" name="AppColor"/>
+                        <color key="barTintColor" name="AccentColor"/>
                         <navigationBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                     </navigationBar>
                     <connections>
@@ -95,12 +95,12 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" systemColor="labelColor"/>
-                        <color key="barTintColor" name="AppColor"/>
+                        <color key="barTintColor" name="AccentColor"/>
                         <navigationBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                     </navigationBar>
                     <connections>
@@ -120,12 +120,12 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" systemColor="labelColor"/>
-                        <color key="barTintColor" name="AppColor"/>
+                        <color key="barTintColor" name="AccentColor"/>
                         <navigationBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
-                            <color key="backgroundColor" name="AppColor"/>
+                            <color key="backgroundColor" name="AccentColor"/>
                         </navigationBarAppearance>
                     </navigationBar>
                     <connections>
@@ -182,8 +182,8 @@
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="message" catalog="system" width="128" height="113"/>
         <image name="network" catalog="system" width="128" height="121"/>
-        <namedColor name="AppColor">
-            <color red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="AccentColor">
+            <color red="0.45490196078431372" green="0.31764705882352939" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

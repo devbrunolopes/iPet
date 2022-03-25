@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8810041427C45BF4002631AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810041327C45BF4002631AD /* AppDelegate.swift */; };
-		8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810041527C45BF4002631AD /* SceneDelegate.swift */; };
 		8810041D27C45BF5002631AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8810041C27C45BF5002631AD /* Assets.xcassets */; };
 		8810042027C45BF5002631AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8810041E27C45BF5002631AD /* LaunchScreen.storyboard */; };
 		8826473F27D984B600A275C0 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826473D27D984B600A275C0 /* HomeCell.swift */; };
@@ -21,6 +20,7 @@
 		886B462C27DF6327009F572A /* CadastroDoacaoVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886B462B27DF6326009F572A /* CadastroDoacaoVC.storyboard */; };
 		888AE5C527EE5FC000B32610 /* ErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AE5C327EE5FC000B32610 /* ErrorTableViewCell.swift */; };
 		888AE5C627EE5FC000B32610 /* ErrorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888AE5C427EE5FC000B32610 /* ErrorTableViewCell.xib */; };
+		888AE5C727EE68DE00B32610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810041527C45BF4002631AD /* SceneDelegate.swift */; };
 		8894500227DA1FD500FAD8DD /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500027DA1FD500FAD8DD /* ProfileCell.swift */; };
 		8894500327DA1FD500FAD8DD /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8894500127DA1FD500FAD8DD /* ProfileCell.xib */; };
 		8894500527DA263B00FAD8DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8894500427DA263B00FAD8DD /* ProfileViewController.swift */; };
@@ -409,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888AE5C727EE68DE00B32610 /* SceneDelegate.swift in Sources */,
 				886B462727DF5A79009F572A /* CadastroDoacaoTableViewCell.swift in Sources */,
 				D55B9E7B27E12BA500D4D961 /* PetsCadastradosViewController.swift in Sources */,
 				888AE5C527EE5FC000B32610 /* ErrorTableViewCell.swift in Sources */,
@@ -432,8 +433,6 @@
 				8894500227DA1FD500FAD8DD /* ProfileCell.swift in Sources */,
 				B519183227E38F22001D396F /* NotificacaoTableViewCell.swift in Sources */,
 				D55B9E7427E0E5C400D4D961 /* PetCollectionViewCell.swift in Sources */,
-				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
-				8810041627C45BF4002631AD /* SceneDelegate.swift in Sources */,
 				D55B9E7927E12B9200D4D961 /* FavoritosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

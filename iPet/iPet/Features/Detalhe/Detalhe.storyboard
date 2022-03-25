@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -89,7 +90,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informações do Pet:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yv-cg-FIU">
                                                         <rect key="frame" x="16" y="253" width="346" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
-                                                        <color key="textColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="textColor" name="AppColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexo: Fêmea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-oI-4n0">
@@ -167,7 +168,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="CHAT" cornerStyle="small">
                                                     <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" name="AppColor"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 </buttonConfiguration>
@@ -267,7 +268,7 @@
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tgB-oD-0t6">
                                                 <rect key="frame" x="20" y="117" width="374" height="32"/>
-                                                <color key="backgroundColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" name="AppColor"/>
                                                 <segments>
                                                     <segment title="Cidade"/>
                                                     <segment title="Estado"/>
@@ -294,7 +295,7 @@
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ybo-Ol-3NF">
                                                 <rect key="frame" x="20" y="292.5" width="374" height="32"/>
-                                                <color key="backgroundColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" name="AppColor"/>
                                                 <segments>
                                                     <segment title="Macho"/>
                                                     <segment title="Fêmea"/>
@@ -322,7 +323,7 @@
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="96z-ow-aFS">
                                                 <rect key="frame" x="18" y="466.5" width="378" height="31"/>
-                                                <color key="tintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" name="AppColor"/>
                                                 <connections>
                                                     <action selector="pressionouIdade:" destination="bBT-P6-SEU" eventType="valueChanged" id="Wx9-uv-aLs"/>
                                                 </connections>
@@ -335,7 +336,7 @@
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="i7D-60-pVn">
                                                 <rect key="frame" x="20" y="553" width="374" height="32"/>
-                                                <color key="backgroundColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" name="AppColor"/>
                                                 <segments>
                                                     <segment title="Micro"/>
                                                     <segment title="Pequeno"/>
@@ -354,7 +355,7 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-bx-F4n">
                                                 <rect key="frame" x="345" y="614" width="51" height="31"/>
-                                                <color key="onTintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="onTintColor" name="AppColor"/>
                                                 <connections>
                                                     <action selector="pressionouCastrado:" destination="bBT-P6-SEU" eventType="valueChanged" id="Z58-99-XdO"/>
                                                 </connections>
@@ -367,7 +368,7 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1B-PA-2jE">
                                                 <rect key="frame" x="345" y="665" width="51" height="31"/>
-                                                <color key="onTintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="onTintColor" name="AppColor"/>
                                                 <connections>
                                                     <action selector="pressionouVacinado:" destination="bBT-P6-SEU" eventType="valueChanged" id="AFC-Kw-pzJ"/>
                                                 </connections>
@@ -380,7 +381,7 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Zt-qj-QaC">
                                                 <rect key="frame" x="345" y="716" width="51" height="31"/>
-                                                <color key="onTintColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="onTintColor" name="AppColor"/>
                                                 <connections>
                                                     <action selector="pressionouVermifugado:" destination="bBT-P6-SEU" eventType="valueChanged" id="BRy-Nq-4Jf"/>
                                                 </connections>
@@ -391,7 +392,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="FILTRAR" cornerStyle="small">
                                                     <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" red="0.72941178080000002" green="0.39215683940000001" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" name="AppColor"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 </buttonConfiguration>
@@ -574,7 +575,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYC-Vt-7Vd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1613" y="-495"/>
+            <point key="canvasLocation" x="1565" y="-496"/>
         </scene>
         <!--Favoritos View Controller-->
         <scene sceneID="xiB-Hc-Lw4">
@@ -673,6 +674,9 @@
         <image name="cat-detail" width="1795" height="2397"/>
         <image name="icn_curtir-default" width="43" height="40"/>
         <image name="line.3.horizontal.decrease" catalog="system" width="128" height="73"/>
+        <namedColor name="AppColor">
+            <color red="0.72941176470000002" green="0.3921568627" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
